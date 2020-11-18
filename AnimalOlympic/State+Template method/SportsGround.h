@@ -51,6 +51,7 @@ public:
 	//在比赛开始前设立禁入线
 	void keepOut() 
 	{
+		_safety_gate = false;
 		_keepout_line = true;
 		cout << "比赛准备开始：在比赛区设立禁入线。" << endl;
 	}
@@ -79,5 +80,8 @@ public:
 		_safety_gate = true;
 		cout << "赛后场地维护结束：拉上安全门以防外界破坏。" << endl;
 	}
+
+	//向用户界面输出运动场地目前的状况
+	virtual void printGroundStatus() = 0;
 };
 

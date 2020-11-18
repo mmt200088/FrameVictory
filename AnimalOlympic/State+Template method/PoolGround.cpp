@@ -1,6 +1,15 @@
 #include "PoolGround.h"
 
 
+void PoolGround::printGroundStatus()
+{
+	cout << "场地名：" << _name << endl
+		<< "场地禁入线：" << (_keepout_line ? "开" : "关") << endl
+		<< "场地安全门：" << (_safety_gate ? "开" : "关") << endl
+		<< "水上救生队：" << (_lifeguard ? "就绪" : "未就绪") << endl
+		<< "泳池水质(0-5星)：" << _water_cleaness << "星" << endl<<endl;
+}
+
 void PoolGround::useGround()
 {
 	if (_water_cleaness > 3)

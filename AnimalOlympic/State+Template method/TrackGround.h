@@ -2,26 +2,29 @@
 #include"SportsGround.h"
 #include"GroundState.h"
 
-//泳池场地
-class PoolGround :public SportsGround
+//径场地
+class TrackGround :public SportsGround 
 {
 protected:
-	//泳池水质，最高为5，最低为0，每次清扫和净化后会回到最高数值。
-	int _water_cleaness = 5;
-	//水上救生队,true为就绪
-	bool _lifeguard = false;
+	//跑道整洁度,最高为5，最低为0，每次清扫会回到最高数值。
+	int _track_cleaness=5;
+	//陆上医疗队,true为就绪
+	bool _medic=false;
 public:
 	//构造函数
-	PoolGround(const string& name, GroundState& state) :
-		SportsGround(name, &state)
+	TrackGround(const string& name, GroundState& state):
+		SportsGround(name,&state)
 	{
-		cout << "PoolGround::ctor" << endl;
+		cout << "TrackGround::ctor" << endl;
 	}
 	//析构函数
-	~PoolGround()
+	~TrackGround() 
 	{
-		cout << "PoolGround::dtor" << endl;
+		cout << "TrackGround::dtor" << endl;
 	}
+
+	//实现：向用户界面输出运动场地目前的状况
+	void printGroundStatus() override;
 
 protected:
 	//实现：使用场地
@@ -38,5 +41,4 @@ protected:
 
 	//实现：在比赛结束后优化场地质量
 	void purifyGround() override;
-
 };

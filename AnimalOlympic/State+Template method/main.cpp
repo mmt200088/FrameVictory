@@ -1,9 +1,9 @@
-#include"Flyweight.h"
+#include"State.h"
 
-int main() 
+int main()
 {
-	auto flyweight = new Flyweight();
-	flyweight->test();
+	auto state = new State();
+	state->test();
 	system("pause");
 	return 0;
 }

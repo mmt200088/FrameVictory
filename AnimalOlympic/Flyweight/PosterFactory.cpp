@@ -28,3 +28,16 @@ Poster * PosterFactory::getPoster(const string & s)
 	//返回取得数据
 	return poster;
 }
+
+void PosterFactory::printPosters()
+{
+	cout << "以下是目前所有的海报模板：" << endl;
+	int i = 0;
+	for (auto p : _modeTable)
+	{
+		i++;
+		auto poster = p.second;
+		cout << i <<".标语: '" << poster->getSlogan()
+			<< "'\n尺寸:(高" << poster->getHeight() << "cm, 宽" << poster->getWidth() << "cm) " << endl<<endl;	
+	}
+}

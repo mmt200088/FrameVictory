@@ -26,8 +26,11 @@ public:
 		}
 		cout << "PosterFactory::dtor" << endl;
 	}
+
 	//通过string为索引找到对应的模板海报
 	Poster* getPoster(const string& s);
 
+	//将所有海报模板输出给用户界面
+	void printPosters();
 };
 

@@ -1,5 +1,14 @@
 #include "TrackGround.h"
 
+void TrackGround::printGroundStatus()
+{
+	cout << "场地名：" << _name << endl
+		<< "场地禁入线：" << (_keepout_line ? "开" : "关") << endl
+		<< "场地安全门：" << (_safety_gate ? "开" : "关") << endl
+		<< "陆上医疗队：" << (_medic ? "就绪" : "未就绪") << endl
+		<< "跑道整洁度(0-5星)：" <<_track_cleaness << "星" << endl << endl;
+}
+
 void TrackGround::useGround()
 {
 	if(_track_cleaness>3)
@@ -14,6 +23,7 @@ void TrackGround::useGround()
 	//完成比赛后场地的状态变更
 	_track_cleaness--;
 	_medic = false;
+	_keepout_line = false;
 }
 
 void TrackGround::setSafeTeam()

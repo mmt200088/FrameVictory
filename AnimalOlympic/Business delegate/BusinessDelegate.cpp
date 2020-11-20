@@ -35,13 +35,18 @@ void BusinessDelegate::test()
 			switch (line[0])
 			{
 			case '0':is_finish = true; break;
-			case '1':dele.setService(drink_serv); break;
-			case '2':dele.setService(query_serv); break;
-			case '3':dele.setService(ticket_serv); break;
+			case '1':dele.setService(drink_serv); 
+				//执行服务
+				client.doService(); break;
+			case '2':dele.setService(query_serv);
+				//执行服务
+				client.doService(); break;
+			case '3':dele.setService(ticket_serv); 
+				//执行服务
+				client.doService(); break;
 			default:cout << "请输入以下字符： 0,1,2,3" << endl; break;
 			}
-			//执行服务
-			client.doService();
+			
 		} while (!is_finish);
 	}
 	catch (exception& exc)

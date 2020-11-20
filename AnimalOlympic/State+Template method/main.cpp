@@ -2,8 +2,8 @@
 
 int main()
 {
-	auto state = new State();
-	state->test();
+	State state;
+	state.test();
 	system("pause");
 	return 0;
 }

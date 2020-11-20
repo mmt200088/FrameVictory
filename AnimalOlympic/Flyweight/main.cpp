@@ -2,8 +2,8 @@
 
 int main() 
 {
-	auto flyweight = new Flyweight();
-	flyweight->test();
+	Flyweight flyweight;
+	flyweight.test();
 	system("pause");
 	return 0;
 }

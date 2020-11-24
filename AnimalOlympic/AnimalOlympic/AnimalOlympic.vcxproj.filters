@@ -31,30 +31,192 @@
     <Filter Include="源文件\xjt\Observer">
       <UniqueIdentifier>{d72baf05-78ba-4970-b626-73f3a4799b1d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\xjt\Register">
+      <UniqueIdentifier>{92bbcdcc-3229-4e92-b17d-ee35239dc580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\xjt\Register">
+      <UniqueIdentifier>{a9ddc70d-fe88-409a-8a59-8ca7c7e8dc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hyo">
+      <UniqueIdentifier>{ec03a355-06f1-49f5-8791-cd2c5a9d87b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hyo\Flyweight">
+      <UniqueIdentifier>{4b1d2140-c070-45b6-ad3b-b8370afbd4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hyo">
+      <UniqueIdentifier>{3aa637b8-a022-4d70-8cdd-3055f5fcaeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hyo\Flyweight">
+      <UniqueIdentifier>{55c4d86b-9abb-4e67-99db-60ca7e83e169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hyo\BusinessDelegate">
+      <UniqueIdentifier>{a1494dfd-907d-4298-a89d-89229dd69f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hyo\BusinessDelegate">
+      <UniqueIdentifier>{ee25f422-b0d5-43d4-b197-70c1b436542f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hyo\State&amp;Template">
+      <UniqueIdentifier>{b647e20d-0dfb-42c8-a624-76794aa2a8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hyo\State&amp;Template">
+      <UniqueIdentifier>{813c7b4f-9c74-424a-b5e3-5d82e4ddf290}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CommitteeOfGame.cpp">
+      <Filter>源文件\xjt\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="CommitteeOfDigging.cpp">
+      <Filter>源文件\xjt\Proxy</Filter>
+    </ClCompile>
     <ClCompile Include="Proxy.cpp">
       <Filter>源文件\xjt\Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>源文件\xjt\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件\xjt\Observer</Filter>
     </ClCompile>
     <ClCompile Include="Observer.cpp">
       <Filter>源文件\xjt\Observer</Filter>
     </ClCompile>
-    <ClCompile Include="CommitteeOfGame.cpp">
-      <Filter>源文件\xjt\Proxy</Filter>
+    <ClCompile Include="Tree.cpp">
+      <Filter>源文件\xjt\Register</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>源文件\xjt\Register</Filter>
+    </ClCompile>
+    <ClCompile Include="Flyweight.cpp">
+      <Filter>源文件\hyo\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="Poster.cpp">
+      <Filter>源文件\hyo\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="PosterFactory.cpp">
+      <Filter>源文件\hyo\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="PosterManager.cpp">
+      <Filter>源文件\hyo\Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Business delegate\TicketService.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Business delegate\ServiceDelegate.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Business delegate\Service.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Business delegate\QueryService.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Business delegate\DrinkingService.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Business delegate\Client.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Business delegate\BusinessDelegate.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\State+Template method\GroundAfterUsedState.cpp">
+      <Filter>源文件\hyo\State&amp;Template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\State+Template method\GroundBeforeUsingState.cpp">
+      <Filter>源文件\hyo\State&amp;Template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\State+Template method\PoolGround.cpp">
+      <Filter>源文件\hyo\State&amp;Template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\State+Template method\State.cpp">
+      <Filter>源文件\hyo\State&amp;Template</Filter>
+    </ClCompile>
+    <ClCompile Include="..\State+Template method\TrackGround.cpp">
+      <Filter>源文件\hyo\State&amp;Template</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Register.h">
+      <Filter>头文件\xjt\Register</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>头文件\xjt\Register</Filter>
+    </ClInclude>
     <ClInclude Include="Proxy.h">
       <Filter>头文件\xjt\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="CommitteeOfGame.h">
+      <Filter>头文件\xjt\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="CommitteeOfDigging.h">
+      <Filter>头文件\xjt\Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>头文件\xjt\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件\xjt\Observer</Filter>
     </ClInclude>
     <ClInclude Include="Observer.h">
       <Filter>头文件\xjt\Observer</Filter>
     </ClInclude>
-    <ClInclude Include="CommitteeOfGame.h">
-      <Filter>头文件\xjt\Proxy</Filter>
+    <ClInclude Include="PosterManager.h">
+      <Filter>头文件\hyo\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="PosterFactory.h">
+      <Filter>头文件\hyo\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="Poster.h">
+      <Filter>头文件\hyo\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight.h">
+      <Filter>头文件\hyo\Flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Business delegate\QueryService.h">
+      <Filter>头文件\hyo\BusinessDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Business delegate\DrinkingService.h">
+      <Filter>头文件\hyo\BusinessDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Business delegate\Client.h">
+      <Filter>头文件\hyo\BusinessDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Business delegate\BusinessDelegate.h">
+      <Filter>头文件\hyo\BusinessDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Business delegate\Service.h">
+      <Filter>头文件\hyo\BusinessDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Business delegate\ServiceDelegate.h">
+      <Filter>头文件\hyo\BusinessDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Business delegate\TicketService.h">
+      <Filter>头文件\hyo\BusinessDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\State+Template method\TrackGround.h">
+      <Filter>头文件\hyo\State&amp;Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\State+Template method\State.h">
+      <Filter>头文件\hyo\State&amp;Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\State+Template method\SportsGround.h">
+      <Filter>头文件\hyo\State&amp;Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\State+Template method\PoolGround.h">
+      <Filter>头文件\hyo\State&amp;Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\State+Template method\GroundState.h">
+      <Filter>头文件\hyo\State&amp;Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\State+Template method\GroundBeforeUsingState.h">
+      <Filter>头文件\hyo\State&amp;Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\State+Template method\GroundAfterUsedState.h">
+      <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

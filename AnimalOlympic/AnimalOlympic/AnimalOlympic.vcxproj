@@ -18,6 +18,61 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Business delegate\BusinessDelegate.cpp" />
+    <ClCompile Include="..\Business delegate\Client.cpp" />
+    <ClCompile Include="..\Business delegate\DrinkingService.cpp" />
+    <ClCompile Include="..\Business delegate\QueryService.cpp" />
+    <ClCompile Include="..\Business delegate\Service.cpp" />
+    <ClCompile Include="..\Business delegate\ServiceDelegate.cpp" />
+    <ClCompile Include="..\Business delegate\TicketService.cpp" />
+    <ClCompile Include="..\State+Template method\GroundAfterUsedState.cpp" />
+    <ClCompile Include="..\State+Template method\GroundBeforeUsingState.cpp" />
+    <ClCompile Include="..\State+Template method\PoolGround.cpp" />
+    <ClCompile Include="..\State+Template method\State.cpp" />
+    <ClCompile Include="..\State+Template method\TrackGround.cpp" />
+    <ClCompile Include="AnimalOlympic.cpp" />
+    <ClCompile Include="CommitteeOfDigging.cpp" />
+    <ClCompile Include="CommitteeOfGame.cpp" />
+    <ClCompile Include="Flyweight.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Poster.cpp" />
+    <ClCompile Include="PosterFactory.cpp" />
+    <ClCompile Include="PosterManager.cpp" />
+    <ClCompile Include="Proxy.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="Tree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Business delegate\BusinessDelegate.h" />
+    <ClInclude Include="..\Business delegate\Client.h" />
+    <ClInclude Include="..\Business delegate\DrinkingService.h" />
+    <ClInclude Include="..\Business delegate\QueryService.h" />
+    <ClInclude Include="..\Business delegate\Service.h" />
+    <ClInclude Include="..\Business delegate\ServiceDelegate.h" />
+    <ClInclude Include="..\Business delegate\TicketService.h" />
+    <ClInclude Include="..\State+Template method\GroundAfterUsedState.h" />
+    <ClInclude Include="..\State+Template method\GroundBeforeUsingState.h" />
+    <ClInclude Include="..\State+Template method\GroundState.h" />
+    <ClInclude Include="..\State+Template method\PoolGround.h" />
+    <ClInclude Include="..\State+Template method\SportsGround.h" />
+    <ClInclude Include="..\State+Template method\State.h" />
+    <ClInclude Include="..\State+Template method\TrackGround.h" />
+    <ClInclude Include="CommitteeOfDigging.h" />
+    <ClInclude Include="CommitteeOfGame.h" />
+    <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Poster.h" />
+    <ClInclude Include="PosterFactory.h" />
+    <ClInclude Include="PosterManager.h" />
+    <ClInclude Include="Proxy.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="Tree.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{433A3538-6BD7-4566-AFFD-A5C89BAE8381}</ProjectGuid>
@@ -150,17 +205,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="AnimalOlympic.cpp" />
-    <ClCompile Include="CommitteeOfGame.cpp" />
-    <ClCompile Include="Observer.cpp" />
-    <ClCompile Include="Proxy.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CommitteeOfGame.h" />
-    <ClInclude Include="Observer.h" />
-    <ClInclude Include="Proxy.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

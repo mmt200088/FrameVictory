@@ -2,10 +2,21 @@
 //
 
 #include <iostream>
-
+#include"Proxy.h"
+#include"Observer.h"
+#include"Register.h"
+#include"Flyweight.h"
+#include"BusinessDelegate.h"
+#include"State.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	Proxy *myPro = new Proxy();
+	Observer *myObs = new Observer();
+	Register* myRes = new  Register();
+	Flyweight* myFly = new Flyweight();
+	BusinessDelegate* myBus = new BusinessDelegate();
+	state* mySta = new state();
+	mySta->test();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

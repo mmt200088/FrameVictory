@@ -25,6 +25,8 @@
     <ClCompile Include="AddPorterFilter.cpp" />
     <ClCompile Include="AnimalOlympic.cpp" />
     <ClCompile Include="AnimalSportsDrinks.cpp" />
+    <ClCompile Include="Bridge.cpp" />
+    <ClCompile Include="Builder.cpp" />
     <ClCompile Include="BusinessDelegate.cpp" />
     <ClCompile Include="BuyGoodsFilter.cpp" />
     <ClCompile Include="CClient.cpp" />
@@ -65,6 +67,7 @@
     <ClCompile Include="MatchProblemSolver.cpp" />
     <ClCompile Include="MenuItem.cpp" />
     <ClCompile Include="MMenu.cpp" />
+    <ClCompile Include="Multiton.cpp" />
     <ClCompile Include="NaCl.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="OlympicServiceCenter.cpp" />
@@ -105,6 +108,8 @@
     <ClInclude Include="AddPorterFilter.h" />
     <ClInclude Include="AnimalSportsDrinks.h" />
     <ClInclude Include="BandageCmd.h" />
+    <ClInclude Include="Bridge.h" />
+    <ClInclude Include="Builder.h" />
     <ClInclude Include="BusinessDelegate.h" />
     <ClInclude Include="BuyGoodsFilter.h" />
     <ClInclude Include="CCClient.h" />
@@ -162,6 +167,7 @@
     <ClInclude Include="MenuComponent.h" />
     <ClInclude Include="MenuItem.h" />
     <ClInclude Include="MMenu.h" />
+    <ClInclude Include="Multiton.h" />
     <ClInclude Include="NaCl.h" />
     <ClInclude Include="ObjectPool.h" />
     <ClInclude Include="Observer.h" />

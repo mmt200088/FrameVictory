@@ -16,6 +16,9 @@
 #include"Decorator.h"
 #include"AbstractFactory.h"
 #include"InterfaceFluent.h"
+#include"Bridge.h"
+#include"Multiton.h"
+#include"Builder.h"
 int main()
 {
 	Proxy *myPro = new Proxy();//xjt 动物委员会 挖洞锦标赛的故事
@@ -32,7 +35,10 @@ int main()
 	InterfaceFluent* myInt = new InterfaceFluent();//hdl 运动会入场登记
 	AbstractFactory* myAbs = new AbstractFactory();//hdl 运动会护具生产
 	Decorator* myDec = new Decorator();//hdl 运动饮料调配
-	myInt->test();//
+	Bridge* myBri = new Bridge();//yqx 自动饮料贩卖机 跑步时补充能量
+	Builder* myBui = new Builder();//yqx 动物食堂 可以吃东西
+	Multiton* myMul = new Multiton();//yqx 闭幕式抽奖
+	myMul->test();//
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

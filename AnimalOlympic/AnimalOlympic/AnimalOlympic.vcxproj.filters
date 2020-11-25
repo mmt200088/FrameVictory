@@ -133,6 +133,30 @@
     <Filter Include="源文件\hdl\InterfaceFluent">
       <UniqueIdentifier>{33c37c80-9316-41ff-be58-91373dea6649}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\yqx">
+      <UniqueIdentifier>{27cb2a3c-373a-47d2-8bec-e2d35c98aa80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\yqx">
+      <UniqueIdentifier>{be8eee66-eb4a-4c05-a77b-5e789698e2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\yqx\Bridge">
+      <UniqueIdentifier>{5ecda193-649d-4cfd-a7bf-996d5ceacf83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\yqx\Builder">
+      <UniqueIdentifier>{91e4609a-ac86-44d1-b5fb-a7f1c3c6d3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\yqx\Multiton">
+      <UniqueIdentifier>{e2364de4-6baf-4324-acf1-8f5230003b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\yqx\Bridge">
+      <UniqueIdentifier>{863d4cae-402d-4c19-8632-585690185df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\yqx\Builder">
+      <UniqueIdentifier>{7dea4bfa-cae9-4d84-b0d3-5be9da365f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\yqx\Multiton">
+      <UniqueIdentifier>{50eee2d4-1fa0-4f45-9837-88e8d6f5bd51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -368,6 +392,15 @@
     </ClCompile>
     <ClCompile Include="PersonalInformation.cpp">
       <Filter>源文件\hdl\InterfaceFluent</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>源文件\yqx\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiton.cpp">
+      <Filter>源文件\yqx\Multiton</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>源文件\yqx\Builder</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -697,6 +730,15 @@
     </ClInclude>
     <ClInclude Include="PersonalInformation.h">
       <Filter>头文件\hdl\InterfaceFluent</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiton.h">
+      <Filter>头文件\yqx\Multiton</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>头文件\yqx\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>头文件\yqx\Bridge</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

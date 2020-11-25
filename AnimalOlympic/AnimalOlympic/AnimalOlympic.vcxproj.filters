@@ -102,41 +102,41 @@
     <ClCompile Include="PosterManager.cpp">
       <Filter>源文件\hyo\Flyweight</Filter>
     </ClCompile>
-    <ClCompile Include="..\Business delegate\TicketService.cpp">
-      <Filter>源文件\hyo\BusinessDelegate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Business delegate\ServiceDelegate.cpp">
-      <Filter>源文件\hyo\BusinessDelegate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Business delegate\Service.cpp">
-      <Filter>源文件\hyo\BusinessDelegate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Business delegate\QueryService.cpp">
-      <Filter>源文件\hyo\BusinessDelegate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Business delegate\DrinkingService.cpp">
-      <Filter>源文件\hyo\BusinessDelegate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Business delegate\Client.cpp">
-      <Filter>源文件\hyo\BusinessDelegate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Business delegate\BusinessDelegate.cpp">
-      <Filter>源文件\hyo\BusinessDelegate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\State+Template method\GroundAfterUsedState.cpp">
+    <ClCompile Include="GroundAfterUsedState.cpp">
       <Filter>源文件\hyo\State&amp;Template</Filter>
     </ClCompile>
-    <ClCompile Include="..\State+Template method\GroundBeforeUsingState.cpp">
+    <ClCompile Include="GroundBeforeUsingState.cpp">
       <Filter>源文件\hyo\State&amp;Template</Filter>
     </ClCompile>
-    <ClCompile Include="..\State+Template method\PoolGround.cpp">
+    <ClCompile Include="PoolGround.cpp">
       <Filter>源文件\hyo\State&amp;Template</Filter>
     </ClCompile>
-    <ClCompile Include="..\State+Template method\State.cpp">
+    <ClCompile Include="State.cpp">
       <Filter>源文件\hyo\State&amp;Template</Filter>
     </ClCompile>
-    <ClCompile Include="..\State+Template method\TrackGround.cpp">
+    <ClCompile Include="TrackGround.cpp">
       <Filter>源文件\hyo\State&amp;Template</Filter>
+    </ClCompile>
+    <ClCompile Include="BusinessDelegate.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="DrinkingService.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryService.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceDelegate.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="TicketService.cpp">
+      <Filter>源文件\hyo\BusinessDelegate</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -176,46 +176,46 @@
     <ClInclude Include="Flyweight.h">
       <Filter>头文件\hyo\Flyweight</Filter>
     </ClInclude>
-    <ClInclude Include="..\Business delegate\QueryService.h">
+    <ClInclude Include="BusinessDelegate.h">
       <Filter>头文件\hyo\BusinessDelegate</Filter>
     </ClInclude>
-    <ClInclude Include="..\Business delegate\DrinkingService.h">
+    <ClInclude Include="Client.h">
       <Filter>头文件\hyo\BusinessDelegate</Filter>
     </ClInclude>
-    <ClInclude Include="..\Business delegate\Client.h">
+    <ClInclude Include="DrinkingService.h">
       <Filter>头文件\hyo\BusinessDelegate</Filter>
     </ClInclude>
-    <ClInclude Include="..\Business delegate\BusinessDelegate.h">
+    <ClInclude Include="QueryService.h">
       <Filter>头文件\hyo\BusinessDelegate</Filter>
     </ClInclude>
-    <ClInclude Include="..\Business delegate\Service.h">
+    <ClInclude Include="Service.h">
       <Filter>头文件\hyo\BusinessDelegate</Filter>
     </ClInclude>
-    <ClInclude Include="..\Business delegate\ServiceDelegate.h">
+    <ClInclude Include="ServiceDelegate.h">
       <Filter>头文件\hyo\BusinessDelegate</Filter>
     </ClInclude>
-    <ClInclude Include="..\Business delegate\TicketService.h">
+    <ClInclude Include="TicketService.h">
       <Filter>头文件\hyo\BusinessDelegate</Filter>
     </ClInclude>
-    <ClInclude Include="..\State+Template method\TrackGround.h">
+    <ClInclude Include="GroundAfterUsedState.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
-    <ClInclude Include="..\State+Template method\State.h">
+    <ClInclude Include="GroundBeforeUsingState.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
-    <ClInclude Include="..\State+Template method\SportsGround.h">
+    <ClInclude Include="GroundState.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
-    <ClInclude Include="..\State+Template method\PoolGround.h">
+    <ClInclude Include="PoolGround.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
-    <ClInclude Include="..\State+Template method\GroundState.h">
+    <ClInclude Include="SportsGround.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
-    <ClInclude Include="..\State+Template method\GroundBeforeUsingState.h">
+    <ClInclude Include="State.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
-    <ClInclude Include="..\State+Template method\GroundAfterUsedState.h">
+    <ClInclude Include="TrackGround.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
   </ItemGroup>

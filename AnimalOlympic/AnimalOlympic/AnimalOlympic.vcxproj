@@ -19,23 +19,38 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Add.cpp" />
+    <ClCompile Include="AddGoodsFilter.cpp" />
+    <ClCompile Include="AddPorterFilter.cpp" />
     <ClCompile Include="AnimalOlympic.cpp" />
     <ClCompile Include="BusinessDelegate.cpp" />
+    <ClCompile Include="BuyGoodsFilter.cpp" />
+    <ClCompile Include="CClient.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="CommitteeOfDigging.cpp" />
     <ClCompile Include="CommitteeOfGame.cpp" />
     <ClCompile Include="DrinkingService.cpp" />
+    <ClCompile Include="Filter.cpp" />
+    <ClCompile Include="FilterManager.cpp" />
     <ClCompile Include="Flyweight.cpp" />
+    <ClCompile Include="Goods.cpp" />
     <ClCompile Include="GroundAfterUsedState.cpp" />
     <ClCompile Include="GroundBeforeUsingState.cpp" />
+    <ClCompile Include="List.cpp" />
+    <ClCompile Include="LookGoodsFilter.cpp" />
+    <ClCompile Include="LookPorterFilter.cpp" />
     <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Page.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PoolGround.cpp" />
+    <ClCompile Include="Porter.cpp" />
+    <ClCompile Include="PortFilter.cpp" />
     <ClCompile Include="Poster.cpp" />
     <ClCompile Include="PosterFactory.cpp" />
     <ClCompile Include="PosterManager.cpp" />
     <ClCompile Include="Proxy.cpp" />
     <ClCompile Include="QueryService.cpp" />
+    <ClCompile Include="Reduce.cpp" />
     <ClCompile Include="Register.cpp" />
     <ClCompile Include="Service.cpp" />
     <ClCompile Include="ServiceDelegate.cpp" />
@@ -46,23 +61,41 @@
     <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Add.h" />
+    <ClInclude Include="AddGoodsFilter.h" />
+    <ClInclude Include="AddPorterFilter.h" />
     <ClInclude Include="BusinessDelegate.h" />
+    <ClInclude Include="BuyGoodsFilter.h" />
+    <ClInclude Include="CClient.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="CommitteeOfDigging.h" />
     <ClInclude Include="CommitteeOfGame.h" />
     <ClInclude Include="DrinkingService.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="Filter.h" />
+    <ClInclude Include="FilterManager.h" />
     <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="Food.h" />
+    <ClInclude Include="Goods.h" />
     <ClInclude Include="GroundAfterUsedState.h" />
     <ClInclude Include="GroundBeforeUsingState.h" />
     <ClInclude Include="GroundState.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="LookGoodsFilter.h" />
+    <ClInclude Include="LookPorterFilter.h" />
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="Operation.h" />
+    <ClInclude Include="Page.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PoolGround.h" />
+    <ClInclude Include="Porter.h" />
+    <ClInclude Include="PortFilter.h" />
     <ClInclude Include="Poster.h" />
     <ClInclude Include="PosterFactory.h" />
     <ClInclude Include="PosterManager.h" />
     <ClInclude Include="Proxy.h" />
     <ClInclude Include="QueryService.h" />
+    <ClInclude Include="Reduce.h" />
     <ClInclude Include="Register.h" />
     <ClInclude Include="Service.h" />
     <ClInclude Include="ServiceDelegate.h" />
@@ -70,6 +103,7 @@
     <ClInclude Include="State.h" />
     <ClInclude Include="Subject.h" />
     <ClInclude Include="TicketService.h" />
+    <ClInclude Include="Tool.h" />
     <ClInclude Include="TrackGround.h" />
     <ClInclude Include="Tree.h" />
   </ItemGroup>

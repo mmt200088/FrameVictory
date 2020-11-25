@@ -8,15 +8,17 @@
 #include"Flyweight.h"
 #include"BusinessDelegate.h"
 #include"State.h"
+#include"CClient.h"
 int main()
 {
-	Proxy *myPro = new Proxy();
-	Observer *myObs = new Observer();
-	Register* myRes = new  Register();
-	Flyweight* myFly = new Flyweight();
-	BusinessDelegate* myBus = new BusinessDelegate();
-	state* mySta = new state();
-	mySta->test();
+	Proxy *myPro = new Proxy();//xjt
+	Observer *myObs = new Observer();//xjt
+	Register* myRes = new  Register();//xjt
+	Flyweight* myFly = new Flyweight();//hyo
+	BusinessDelegate* myBus = new BusinessDelegate();//hyo
+	state* mySta = new state();//hyo
+	CClient* myCli = new CClient();//lxp 后勤管理系统
+	myCli->test();//
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

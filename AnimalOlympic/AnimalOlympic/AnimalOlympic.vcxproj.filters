@@ -61,6 +61,12 @@
     <Filter Include="源文件\hyo\State&amp;Template">
       <UniqueIdentifier>{813c7b4f-9c74-424a-b5e3-5d82e4ddf290}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\lxp">
+      <UniqueIdentifier>{dbc4644d-9c9a-498c-913c-734b08c09741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\lxp">
+      <UniqueIdentifier>{d34e00bb-8eda-41ae-8517-1beab2f002ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -137,6 +143,51 @@
     </ClCompile>
     <ClCompile Include="TicketService.cpp">
       <Filter>源文件\hyo\BusinessDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Add.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="AddGoodsFilter.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPorterFilter.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyGoodsFilter.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="CClient.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterManager.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="Goods.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="LookGoodsFilter.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="LookPorterFilter.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="Page.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="Porter.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="PortFilter.cpp">
+      <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="Reduce.cpp">
+      <Filter>源文件\lxp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -217,6 +268,63 @@
     </ClInclude>
     <ClInclude Include="TrackGround.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Add.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="AddGoodsFilter.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="AddPorterFilter.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyGoodsFilter.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="CClient.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterManager.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Goods.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="LookGoodsFilter.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="LookPorterFilter.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Porter.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="PortFilter.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Reduce.h">
+      <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>头文件\lxp</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

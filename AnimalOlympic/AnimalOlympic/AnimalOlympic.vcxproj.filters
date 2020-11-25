@@ -175,6 +175,30 @@
     <Filter Include="头文件\zmz\Mediator">
       <UniqueIdentifier>{860b2d19-7439-4423-86b7-f97d71deb2fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\zxm">
+      <UniqueIdentifier>{b14ac334-60a7-47d1-92fa-5277ceb66e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zxm">
+      <UniqueIdentifier>{5de0b15c-44c9-449c-a467-eb6472f15825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zxm\Prototype">
+      <UniqueIdentifier>{3fca9a87-9087-4a71-88e8-226b20e442a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zxm\SingletonMemento">
+      <UniqueIdentifier>{f326a56e-2802-4102-a629-4c51a71b8efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zxm\StaticFactoryMethod">
+      <UniqueIdentifier>{f8603aae-a1e2-4852-8b23-dcbaff3e79d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zxm\StaticFactoryMethod">
+      <UniqueIdentifier>{d8cbc1bd-becd-48e9-bf24-61366f05272e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zxm\SingletonMemento">
+      <UniqueIdentifier>{79a1e64f-950e-4d67-a8f3-8d5d4066b77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zxm\Prototype">
+      <UniqueIdentifier>{591a0800-b3c4-414b-a869-f3551d0a7888}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -437,6 +461,39 @@
     </ClCompile>
     <ClCompile Include="Statistics.cpp">
       <Filter>源文件\zmz\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="AthleticsCompetitionCard.cpp">
+      <Filter>源文件\zxm\StaticFactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="BallCompetitionCard.cpp">
+      <Filter>源文件\zxm\StaticFactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="CompetitionCardFactory.cpp">
+      <Filter>源文件\zxm\StaticFactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticFactoryMethod.cpp">
+      <Filter>源文件\zxm\StaticFactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterCompetitionCard.cpp">
+      <Filter>源文件\zxm\StaticFactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonMemento.cpp">
+      <Filter>源文件\zxm\SingletonMemento</Filter>
+    </ClCompile>
+    <ClCompile Include="CopperMedal.cpp">
+      <Filter>源文件\zxm\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldMedal.cpp">
+      <Filter>源文件\zxm\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Medal.cpp">
+      <Filter>源文件\zxm\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="SilverMedal.cpp">
+      <Filter>源文件\zxm\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Myprototype.cpp">
+      <Filter>源文件\zxm\Prototype</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -796,6 +853,51 @@
     </ClInclude>
     <ClInclude Include="Mediator.h">
       <Filter>头文件\zmz\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="AthleticsCompetitionCard.h">
+      <Filter>头文件\zxm\StaticFactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="BallCompetitionCard.h">
+      <Filter>头文件\zxm\StaticFactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="CompetitionCard.h">
+      <Filter>头文件\zxm\StaticFactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="CompetitionCardFactory.h">
+      <Filter>头文件\zxm\StaticFactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticFactoryMethod.h">
+      <Filter>头文件\zxm\StaticFactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterCompetitionCard.h">
+      <Filter>头文件\zxm\StaticFactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonMemento.h">
+      <Filter>头文件\zxm\SingletonMemento</Filter>
+    </ClInclude>
+    <ClInclude Include="SnookerCompetition.h">
+      <Filter>头文件\zxm\SingletonMemento</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento.h">
+      <Filter>头文件\zxm\SingletonMemento</Filter>
+    </ClInclude>
+    <ClInclude Include="CareTaker.h">
+      <Filter>头文件\zxm\SingletonMemento</Filter>
+    </ClInclude>
+    <ClInclude Include="SilverMedal.h">
+      <Filter>头文件\zxm\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Medal.h">
+      <Filter>头文件\zxm\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldMedal.h">
+      <Filter>头文件\zxm\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="CopperMedal.h">
+      <Filter>头文件\zxm\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Myprototype.h">
+      <Filter>头文件\zxm\Prototype</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

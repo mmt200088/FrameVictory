@@ -25,6 +25,8 @@
     <ClCompile Include="AddPorterFilter.cpp" />
     <ClCompile Include="AnimalOlympic.cpp" />
     <ClCompile Include="AnimalSportsDrinks.cpp" />
+    <ClCompile Include="AthleticsCompetitionCard.cpp" />
+    <ClCompile Include="BallCompetitionCard.cpp" />
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="Bridge.cpp" />
     <ClCompile Include="Builder.cpp" />
@@ -36,7 +38,9 @@
     <ClCompile Include="command.cpp" />
     <ClCompile Include="CommitteeOfDigging.cpp" />
     <ClCompile Include="CommitteeOfGame.cpp" />
+    <ClCompile Include="CompetitionCardFactory.cpp" />
     <ClCompile Include="composite.cpp" />
+    <ClCompile Include="CopperMedal.cpp" />
     <ClCompile Include="Decorator.cpp" />
     <ClCompile Include="DolphinPlayer.cpp" />
     <ClCompile Include="DrinkingService.cpp" />
@@ -53,6 +57,7 @@
     <ClCompile Include="FoodProblemSolver.cpp" />
     <ClCompile Include="GLC.cpp" />
     <ClCompile Include="GoggleProduct.cpp" />
+    <ClCompile Include="GoldMedal.cpp" />
     <ClCompile Include="Goods.cpp" />
     <ClCompile Include="GroundAfterUsedState.cpp" />
     <ClCompile Include="GroundBeforeUsingState.cpp" />
@@ -69,6 +74,7 @@
     <ClCompile Include="LookGoodsFilter.cpp" />
     <ClCompile Include="LookPorterFilter.cpp" />
     <ClCompile Include="MatchProblemSolver.cpp" />
+    <ClCompile Include="Medal.cpp" />
     <ClCompile Include="MenuItem.cpp" />
     <ClCompile Include="MMenu.cpp" />
     <ClCompile Include="Multiton.cpp" />
@@ -84,6 +90,7 @@
     <ClCompile Include="Poster.cpp" />
     <ClCompile Include="PosterFactory.cpp" />
     <ClCompile Include="PosterManager.cpp" />
+    <ClCompile Include="Myprototype.cpp" />
     <ClCompile Include="Proxy.cpp" />
     <ClCompile Include="QueryService.cpp" />
     <ClCompile Include="Reduce.cpp" />
@@ -94,10 +101,13 @@
     <ClCompile Include="ServiceDelegate.cpp" />
     <ClCompile Include="ServiceHall.cpp" />
     <ClCompile Include="ShopAssistant.cpp" />
+    <ClCompile Include="SilverMedal.cpp" />
     <ClCompile Include="Singing.cpp" />
+    <ClCompile Include="SingletonMemento.cpp" />
     <ClCompile Include="SportsDrinks.cpp" />
     <ClCompile Include="SportsDrinksDecorator.cpp" />
     <ClCompile Include="State.cpp" />
+    <ClCompile Include="StaticFactoryMethod.cpp" />
     <ClCompile Include="Statistics.cpp" />
     <ClCompile Include="Subject.cpp" />
     <ClCompile Include="SUC.cpp" />
@@ -106,6 +116,7 @@
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="VitaminB6.cpp" />
     <ClCompile Include="VitaminC.cpp" />
+    <ClCompile Include="WaterCompetitionCard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
@@ -114,12 +125,15 @@
     <ClInclude Include="AddGoodsFilter.h" />
     <ClInclude Include="AddPorterFilter.h" />
     <ClInclude Include="AnimalSportsDrinks.h" />
+    <ClInclude Include="AthleticsCompetitionCard.h" />
+    <ClInclude Include="BallCompetitionCard.h" />
     <ClInclude Include="BandageCmd.h" />
     <ClInclude Include="Board.h" />
     <ClInclude Include="Bridge.h" />
     <ClInclude Include="Builder.h" />
     <ClInclude Include="BusinessDelegate.h" />
     <ClInclude Include="BuyGoodsFilter.h" />
+    <ClInclude Include="CareTaker.h" />
     <ClInclude Include="CCClient.h" />
     <ClInclude Include="CClient.h" />
     <ClInclude Include="Clerk.h" />
@@ -127,7 +141,10 @@
     <ClInclude Include="command.h" />
     <ClInclude Include="CommitteeOfDigging.h" />
     <ClInclude Include="CommitteeOfGame.h" />
+    <ClInclude Include="CompetitionCard.h" />
+    <ClInclude Include="CompetitionCardFactory.h" />
     <ClInclude Include="composite.h" />
+    <ClInclude Include="CopperMedal.h" />
     <ClInclude Include="CustomeManager.h" />
     <ClInclude Include="Decorator.h" />
     <ClInclude Include="Dish.h" />
@@ -154,6 +171,7 @@
     <ClInclude Include="FrontController.h" />
     <ClInclude Include="GLC.h" />
     <ClInclude Include="GoggleProduct.h" />
+    <ClInclude Include="GoldMedal.h" />
     <ClInclude Include="Goods.h" />
     <ClInclude Include="GroundAfterUsedState.h" />
     <ClInclude Include="GroundBeforeUsingState.h" />
@@ -171,7 +189,9 @@
     <ClInclude Include="LookGoodsFilter.h" />
     <ClInclude Include="LookPorterFilter.h" />
     <ClInclude Include="MatchProblemSolver.h" />
+    <ClInclude Include="Medal.h" />
     <ClInclude Include="Mediator.h" />
+    <ClInclude Include="Memento.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="MenuComponent.h" />
     <ClInclude Include="MenuItem.h" />
@@ -197,6 +217,7 @@
     <ClInclude Include="PosterCmd.h" />
     <ClInclude Include="PosterFactory.h" />
     <ClInclude Include="PosterManager.h" />
+    <ClInclude Include="Myprototype.h" />
     <ClInclude Include="Proxy.h" />
     <ClInclude Include="QueryService.h" />
     <ClInclude Include="Reduce.h" />
@@ -210,10 +231,14 @@
     <ClInclude Include="ServiceDelegate.h" />
     <ClInclude Include="ServiceHall.h" />
     <ClInclude Include="ShopAssitant.h" />
+    <ClInclude Include="SilverMedal.h" />
+    <ClInclude Include="SingletonMemento.h" />
+    <ClInclude Include="SnookerCompetition.h" />
     <ClInclude Include="SportsDrinks.h" />
     <ClInclude Include="SportsDrinksDecorator.h" />
     <ClInclude Include="SportsGround.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="StaticFactoryMethod.h" />
     <ClInclude Include="Statistics.h" />
     <ClInclude Include="Subject.h" />
     <ClInclude Include="SUC.h" />
@@ -227,6 +252,7 @@
     <ClInclude Include="Tree.h" />
     <ClInclude Include="VitaminB6.h" />
     <ClInclude Include="VitaminC.h" />
+    <ClInclude Include="WaterCompetitionCard.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

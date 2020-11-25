@@ -10,6 +10,9 @@
 #include"State.h"
 #include"CClient.h"
 #include"ServiceHall.h"
+#include"composite.h"
+#include"command.h"
+#include"FrontController.h"
 int main()
 {
 	Proxy *myPro = new Proxy();//xjt
@@ -19,7 +22,10 @@ int main()
 	BusinessDelegate* myBus = new BusinessDelegate();//hyo
 	state* mySta = new state();//hyo
 	CClient* myCli = new CClient();//lxp 后勤管理系统
-	ServiceHall* mySev = new ServiceHall();//wjq 
+	ServiceHall* mySev = new ServiceHall();//wjq 运动会服务大厅
+	command* myAnd = new command();//syj 运动会小卖部
+	composite* mySit = new composite();//syj 赛事导航
+	FrontController* myFro = new FrontController();//syj 运动会服务中心
 	mySev->test();//
 }
 

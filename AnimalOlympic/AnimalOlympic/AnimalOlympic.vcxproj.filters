@@ -85,6 +85,30 @@
     <Filter Include="头文件\wjq\Test">
       <UniqueIdentifier>{0b701cdd-bffc-4c9a-89b7-ae8d8f307eca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\syj">
+      <UniqueIdentifier>{89e08cb0-3c4b-44f6-a422-bad42089c97e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\syj">
+      <UniqueIdentifier>{4eebdd91-1e7c-4f5d-a5cf-a9eaa906b5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\syj\Command">
+      <UniqueIdentifier>{2647ff27-6f9d-4c12-a51a-6ebf90a74d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\syj\Composite">
+      <UniqueIdentifier>{64cda1a7-79bc-40e1-abd2-babfa09a7aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\syj\FrontController">
+      <UniqueIdentifier>{0c435351-a4f7-44cc-9ae4-d0ba13d0c266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\syj\Command">
+      <UniqueIdentifier>{ae709ce3-e2ba-4c4d-a3ad-75f10432a41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\syj\Composite">
+      <UniqueIdentifier>{363f72cf-4d0f-47e5-9ec1-0a99d053d20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\syj\FrontController">
+      <UniqueIdentifier>{b4e546e1-4393-4685-ae06-3feb06bcf55d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -209,6 +233,42 @@
     </ClCompile>
     <ClCompile Include="ServiceHall.cpp">
       <Filter>源文件\wjq</Filter>
+    </ClCompile>
+    <ClCompile Include="Clerk.cpp">
+      <Filter>源文件\syj\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="command.cpp">
+      <Filter>源文件\syj\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopAssistant.cpp">
+      <Filter>源文件\syj\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="composite.cpp">
+      <Filter>源文件\syj\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>源文件\syj\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="MMenu.cpp">
+      <Filter>源文件\syj\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="FacilityProblemSolver.cpp">
+      <Filter>源文件\syj\FrontController</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodProblemSolver.cpp">
+      <Filter>源文件\syj\FrontController</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchProblemSolver.cpp">
+      <Filter>源文件\syj\FrontController</Filter>
+    </ClCompile>
+    <ClCompile Include="OlympicServiceCenter.cpp">
+      <Filter>源文件\syj\FrontController</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestDispatcher.cpp">
+      <Filter>源文件\syj\FrontController</Filter>
+    </ClCompile>
+    <ClCompile Include="safeProblemSolver.cpp">
+      <Filter>源文件\syj\FrontController</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -403,6 +463,66 @@
     </ClInclude>
     <ClInclude Include="ServiceHall.h">
       <Filter>头文件\wjq\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="BandageCmd.h">
+      <Filter>头文件\syj\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Clerk.h">
+      <Filter>头文件\syj\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>头文件\syj\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="DrinkCmd.h">
+      <Filter>头文件\syj\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodCmd.h">
+      <Filter>头文件\syj\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="order.h">
+      <Filter>头文件\syj\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="PosterCmd.h">
+      <Filter>头文件\syj\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopAssitant.h">
+      <Filter>头文件\syj\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="composite.h">
+      <Filter>头文件\syj\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuComponent.h">
+      <Filter>头文件\syj\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>头文件\syj\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="MMenu.h">
+      <Filter>头文件\syj\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeProblemSolver.h">
+      <Filter>头文件\syj\FrontController</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestSolvable.h">
+      <Filter>头文件\syj\FrontController</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestDispatcher.h">
+      <Filter>头文件\syj\FrontController</Filter>
+    </ClInclude>
+    <ClInclude Include="OlympicServiceCenter.h">
+      <Filter>头文件\syj\FrontController</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchProblemSolver.h">
+      <Filter>头文件\syj\FrontController</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontController.h">
+      <Filter>头文件\syj\FrontController</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodProblemSolver.h">
+      <Filter>头文件\syj\FrontController</Filter>
+    </ClInclude>
+    <ClInclude Include="FacilityProblemSolver.h">
+      <Filter>头文件\syj\FrontController</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

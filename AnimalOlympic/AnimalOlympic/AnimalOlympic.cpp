@@ -9,6 +9,7 @@
 #include"BusinessDelegate.h"
 #include"State.h"
 #include"CClient.h"
+#include"ServiceHall.h"
 int main()
 {
 	Proxy *myPro = new Proxy();//xjt
@@ -18,7 +19,8 @@ int main()
 	BusinessDelegate* myBus = new BusinessDelegate();//hyo
 	state* mySta = new state();//hyo
 	CClient* myCli = new CClient();//lxp 后勤管理系统
-	myCli->test();//
+	ServiceHall* mySev = new ServiceHall();//wjq 
+	mySev->test();//
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

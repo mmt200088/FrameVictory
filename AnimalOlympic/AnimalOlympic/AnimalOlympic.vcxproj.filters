@@ -67,6 +67,24 @@
     <Filter Include="头文件\lxp">
       <UniqueIdentifier>{d34e00bb-8eda-41ae-8517-1beab2f002ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\wjq">
+      <UniqueIdentifier>{676d35fd-2c92-4adf-a448-b328958f51b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\wjq">
+      <UniqueIdentifier>{4f884403-232c-445e-85bc-c6ba8cac91bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\wjq\FactoryMethod">
+      <UniqueIdentifier>{3a071866-7cd1-4ecb-9569-a494503f8ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\wjq\Interpreter">
+      <UniqueIdentifier>{083b4453-b976-43dc-9f4e-832c7a92f948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\wjq\ObjectPool">
+      <UniqueIdentifier>{4c1d5fd6-76aa-4a92-a319-744a57a0ec8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\wjq\Test">
+      <UniqueIdentifier>{0b701cdd-bffc-4c9a-89b7-ae8d8f307eca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -188,6 +206,9 @@
     </ClCompile>
     <ClCompile Include="Reduce.cpp">
       <Filter>源文件\lxp</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceHall.cpp">
+      <Filter>源文件\wjq</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -325,6 +346,63 @@
     </ClInclude>
     <ClInclude Include="Tool.h">
       <Filter>头文件\lxp</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FootballTickets.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="FootballTicketsOffice.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningTickets.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="RunTicketsOffice.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="SwimmingTickets.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="SwimTicketsOffice.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Tickets.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="TicketsOffice.h">
+      <Filter>头文件\wjq\FactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Dish.h">
+      <Filter>头文件\wjq\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>头文件\wjq\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>头文件\wjq\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>头文件\wjq\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Operations.h">
+      <Filter>头文件\wjq\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="CCClient.h">
+      <Filter>头文件\wjq\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomeManager.h">
+      <Filter>头文件\wjq\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="FanCustome.h">
+      <Filter>头文件\wjq\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>头文件\wjq\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceHall.h">
+      <Filter>头文件\wjq\Test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

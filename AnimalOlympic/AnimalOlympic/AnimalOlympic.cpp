@@ -19,6 +19,8 @@
 #include"Bridge.h"
 #include"Multiton.h"
 #include"Builder.h"
+#include"Mediator.h"
+#include"Adapter.h"
 int main()
 {
 	Proxy *myPro = new Proxy();//xjt 动物委员会 挖洞锦标赛的故事
@@ -38,7 +40,9 @@ int main()
 	Bridge* myBri = new Bridge();//yqx 自动饮料贩卖机 跑步时补充能量
 	Builder* myBui = new Builder();//yqx 动物食堂 可以吃东西
 	Multiton* myMul = new Multiton();//yqx 闭幕式抽奖
-	myMul->test();//
+	Mediator* myMed = new Mediator();//zmz 体操比赛现场
+	Adapter* myAda = new Adapter();//zmz 开幕式上献唱一曲
+	myMed->test();//
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

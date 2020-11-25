@@ -157,6 +157,24 @@
     <Filter Include="源文件\yqx\Multiton">
       <UniqueIdentifier>{50eee2d4-1fa0-4f45-9837-88e8d6f5bd51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\zmz">
+      <UniqueIdentifier>{734e703c-680e-48f0-846d-2baaac528242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zmz">
+      <UniqueIdentifier>{b46f96ad-520b-4fd6-aeb4-19b1c5647934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zmz\Adapter">
+      <UniqueIdentifier>{7fb4465a-3182-418d-af19-8e74dee29ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zmz\Adapter">
+      <UniqueIdentifier>{2435d239-b329-4a25-ac8a-12dfafec3300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zmz\Mediator">
+      <UniqueIdentifier>{743ef402-35d0-409d-85ee-7c5b658ebbff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zmz\Mediator">
+      <UniqueIdentifier>{860b2d19-7439-4423-86b7-f97d71deb2fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -401,6 +419,24 @@
     </ClCompile>
     <ClCompile Include="Builder.cpp">
       <Filter>源文件\yqx\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="LionPlayer.cpp">
+      <Filter>源文件\zmz\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Elephantplayer.cpp">
+      <Filter>源文件\zmz\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="DolphinPlayer.cpp">
+      <Filter>源文件\zmz\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Singing.cpp">
+      <Filter>源文件\zmz\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>源文件\zmz\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics.cpp">
+      <Filter>源文件\zmz\Mediator</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -739,6 +775,27 @@
     </ClInclude>
     <ClInclude Include="Bridge.h">
       <Filter>头文件\yqx\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="OAAdapter.h">
+      <Filter>头文件\zmz\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>头文件\zmz\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Otheranimals.h">
+      <Filter>头文件\zmz\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>头文件\zmz\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>头文件\zmz\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.h">
+      <Filter>头文件\zmz\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>头文件\zmz\Mediator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -25,6 +25,7 @@
     <ClCompile Include="AddPorterFilter.cpp" />
     <ClCompile Include="AnimalOlympic.cpp" />
     <ClCompile Include="AnimalSportsDrinks.cpp" />
+    <ClCompile Include="Board.cpp" />
     <ClCompile Include="Bridge.cpp" />
     <ClCompile Include="Builder.cpp" />
     <ClCompile Include="BusinessDelegate.cpp" />
@@ -37,7 +38,9 @@
     <ClCompile Include="CommitteeOfGame.cpp" />
     <ClCompile Include="composite.cpp" />
     <ClCompile Include="Decorator.cpp" />
+    <ClCompile Include="DolphinPlayer.cpp" />
     <ClCompile Include="DrinkingService.cpp" />
+    <ClCompile Include="Elephantplayer.cpp" />
     <ClCompile Include="FacilityProblemSolver.cpp" />
     <ClCompile Include="Factory.cpp" />
     <ClCompile Include="FengFactory.cpp" />
@@ -57,6 +60,7 @@
     <ClCompile Include="InterfaceFluent.cpp" />
     <ClCompile Include="KCl.cpp" />
     <ClCompile Include="KneecapProduct.cpp" />
+    <ClCompile Include="LionPlayer.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="LongFactory.cpp" />
     <ClCompile Include="LongGoggleProduct.cpp" />
@@ -90,9 +94,11 @@
     <ClCompile Include="ServiceDelegate.cpp" />
     <ClCompile Include="ServiceHall.cpp" />
     <ClCompile Include="ShopAssistant.cpp" />
+    <ClCompile Include="Singing.cpp" />
     <ClCompile Include="SportsDrinks.cpp" />
     <ClCompile Include="SportsDrinksDecorator.cpp" />
     <ClCompile Include="State.cpp" />
+    <ClCompile Include="Statistics.cpp" />
     <ClCompile Include="Subject.cpp" />
     <ClCompile Include="SUC.cpp" />
     <ClCompile Include="TicketService.cpp" />
@@ -103,11 +109,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="Adapter.h" />
     <ClInclude Include="Add.h" />
     <ClInclude Include="AddGoodsFilter.h" />
     <ClInclude Include="AddPorterFilter.h" />
     <ClInclude Include="AnimalSportsDrinks.h" />
     <ClInclude Include="BandageCmd.h" />
+    <ClInclude Include="Board.h" />
     <ClInclude Include="Bridge.h" />
     <ClInclude Include="Builder.h" />
     <ClInclude Include="BusinessDelegate.h" />
@@ -163,18 +171,22 @@
     <ClInclude Include="LookGoodsFilter.h" />
     <ClInclude Include="LookPorterFilter.h" />
     <ClInclude Include="MatchProblemSolver.h" />
+    <ClInclude Include="Mediator.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="MenuComponent.h" />
     <ClInclude Include="MenuItem.h" />
     <ClInclude Include="MMenu.h" />
     <ClInclude Include="Multiton.h" />
+    <ClInclude Include="Music.h" />
     <ClInclude Include="NaCl.h" />
+    <ClInclude Include="OAAdapter.h" />
     <ClInclude Include="ObjectPool.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="OlympicServiceCenter.h" />
     <ClInclude Include="Operation.h" />
     <ClInclude Include="Operations.h" />
     <ClInclude Include="order.h" />
+    <ClInclude Include="Otheranimals.h" />
     <ClInclude Include="Page.h" />
     <ClInclude Include="PersonalInformation.h" />
     <ClInclude Include="Player.h" />
@@ -202,6 +214,7 @@
     <ClInclude Include="SportsDrinksDecorator.h" />
     <ClInclude Include="SportsGround.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="Statistics.h" />
     <ClInclude Include="Subject.h" />
     <ClInclude Include="SUC.h" />
     <ClInclude Include="SwimmingTickets.h" />

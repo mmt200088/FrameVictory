@@ -109,6 +109,30 @@
     <Filter Include="源文件\syj\FrontController">
       <UniqueIdentifier>{b4e546e1-4393-4685-ae06-3feb06bcf55d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\hdl">
+      <UniqueIdentifier>{9a22ad11-cd34-4daf-aafd-4bd8f78cf9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hdl">
+      <UniqueIdentifier>{e4b8ab81-b6b2-4b4d-ba9c-fd53f8343f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hdl\AbstractFactory">
+      <UniqueIdentifier>{b4afc464-e86a-4b2b-90ba-ab0309aeb980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hdl\Decorator">
+      <UniqueIdentifier>{db51d765-cc8a-40bd-9f29-580e1b2c4adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hdl\InterfaceFluent">
+      <UniqueIdentifier>{606fdc5c-f953-4ea4-90b9-7e18d6fdc06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hdl\AbstractFactory">
+      <UniqueIdentifier>{28e23165-64fd-49d7-992a-317ef6fec3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hdl\Decorator">
+      <UniqueIdentifier>{35895313-567c-4ffd-b37c-b8fe2be4a33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hdl\InterfaceFluent">
+      <UniqueIdentifier>{33c37c80-9316-41ff-be58-91373dea6649}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -269,6 +293,81 @@
     </ClCompile>
     <ClCompile Include="safeProblemSolver.cpp">
       <Filter>源文件\syj\FrontController</Filter>
+    </ClCompile>
+    <ClCompile Include="FengFactory.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractFactory.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="FengGoggleProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="FengHelmetProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="FengKneecapProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="GoggleProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="HelmetProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="KneecapProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="LongFactory.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="LongGoggleProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="LongHelmetProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="LongKneecapProduct.cpp">
+      <Filter>源文件\hdl\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimalSportsDrinks.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Decorator.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="GLC.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="KCl.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="NaCl.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="SportsDrinks.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="SportsDrinksDecorator.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="SUC.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="VitaminB6.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="VitaminC.cpp">
+      <Filter>源文件\hdl\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceFluent.cpp">
+      <Filter>源文件\hdl\InterfaceFluent</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonalInformation.cpp">
+      <Filter>源文件\hdl\InterfaceFluent</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -523,6 +622,81 @@
     </ClInclude>
     <ClInclude Include="FacilityProblemSolver.h">
       <Filter>头文件\syj\FrontController</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FengFactory.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FengGoggleProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FengHelmetProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FengKneecapProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="GoggleProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="HelmetProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="KneecapProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="LongFactory.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="LongGoggleProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="LongHelmetProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="LongKneecapProduct.h">
+      <Filter>头文件\hdl\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="VitaminC.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="VitaminB6.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="SUC.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="SportsDrinksDecorator.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="SportsDrinks.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="NaCl.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="KCl.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="GLC.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalSportsDrinks.h">
+      <Filter>头文件\hdl\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceFluent.h">
+      <Filter>头文件\hdl\InterfaceFluent</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalInformation.h">
+      <Filter>头文件\hdl\InterfaceFluent</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractFactory.cpp" />
     <ClCompile Include="Add.cpp" />
     <ClCompile Include="AddGoodsFilter.cpp" />
     <ClCompile Include="AddPorterFilter.cpp" />
     <ClCompile Include="AnimalOlympic.cpp" />
+    <ClCompile Include="AnimalSportsDrinks.cpp" />
     <ClCompile Include="BusinessDelegate.cpp" />
     <ClCompile Include="BuyGoodsFilter.cpp" />
     <ClCompile Include="CClient.cpp" />
@@ -32,24 +34,42 @@
     <ClCompile Include="CommitteeOfDigging.cpp" />
     <ClCompile Include="CommitteeOfGame.cpp" />
     <ClCompile Include="composite.cpp" />
+    <ClCompile Include="Decorator.cpp" />
     <ClCompile Include="DrinkingService.cpp" />
     <ClCompile Include="FacilityProblemSolver.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="FengFactory.cpp" />
+    <ClCompile Include="FengGoggleProduct.cpp" />
+    <ClCompile Include="FengHelmetProduct.cpp" />
+    <ClCompile Include="FengKneecapProduct.cpp" />
     <ClCompile Include="Filter.cpp" />
     <ClCompile Include="FilterManager.cpp" />
     <ClCompile Include="Flyweight.cpp" />
     <ClCompile Include="FoodProblemSolver.cpp" />
+    <ClCompile Include="GLC.cpp" />
+    <ClCompile Include="GoggleProduct.cpp" />
     <ClCompile Include="Goods.cpp" />
     <ClCompile Include="GroundAfterUsedState.cpp" />
     <ClCompile Include="GroundBeforeUsingState.cpp" />
+    <ClCompile Include="HelmetProduct.cpp" />
+    <ClCompile Include="InterfaceFluent.cpp" />
+    <ClCompile Include="KCl.cpp" />
+    <ClCompile Include="KneecapProduct.cpp" />
     <ClCompile Include="List.cpp" />
+    <ClCompile Include="LongFactory.cpp" />
+    <ClCompile Include="LongGoggleProduct.cpp" />
+    <ClCompile Include="LongHelmetProduct.cpp" />
+    <ClCompile Include="LongKneecapProduct.cpp" />
     <ClCompile Include="LookGoodsFilter.cpp" />
     <ClCompile Include="LookPorterFilter.cpp" />
     <ClCompile Include="MatchProblemSolver.cpp" />
     <ClCompile Include="MenuItem.cpp" />
     <ClCompile Include="MMenu.cpp" />
+    <ClCompile Include="NaCl.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="OlympicServiceCenter.cpp" />
     <ClCompile Include="Page.cpp" />
+    <ClCompile Include="PersonalInformation.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PoolGround.cpp" />
     <ClCompile Include="Porter.cpp" />
@@ -67,16 +87,23 @@
     <ClCompile Include="ServiceDelegate.cpp" />
     <ClCompile Include="ServiceHall.cpp" />
     <ClCompile Include="ShopAssistant.cpp" />
+    <ClCompile Include="SportsDrinks.cpp" />
+    <ClCompile Include="SportsDrinksDecorator.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="SUC.cpp" />
     <ClCompile Include="TicketService.cpp" />
     <ClCompile Include="TrackGround.cpp" />
     <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="VitaminB6.cpp" />
+    <ClCompile Include="VitaminC.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="Add.h" />
     <ClInclude Include="AddGoodsFilter.h" />
     <ClInclude Include="AddPorterFilter.h" />
+    <ClInclude Include="AnimalSportsDrinks.h" />
     <ClInclude Include="BandageCmd.h" />
     <ClInclude Include="BusinessDelegate.h" />
     <ClInclude Include="BuyGoodsFilter.h" />
@@ -89,14 +116,20 @@
     <ClInclude Include="CommitteeOfGame.h" />
     <ClInclude Include="composite.h" />
     <ClInclude Include="CustomeManager.h" />
+    <ClInclude Include="Decorator.h" />
     <ClInclude Include="Dish.h" />
     <ClInclude Include="DrinkCmd.h" />
     <ClInclude Include="DrinkingService.h" />
     <ClInclude Include="Equipment.h" />
     <ClInclude Include="Expression.h" />
     <ClInclude Include="FacilityProblemSolver.h" />
+    <ClInclude Include="Factory.h" />
     <ClInclude Include="FactoryMethod.h" />
     <ClInclude Include="FanCustome.h" />
+    <ClInclude Include="FengFactory.h" />
+    <ClInclude Include="FengGoggleProduct.h" />
+    <ClInclude Include="FengHelmetProduct.h" />
+    <ClInclude Include="FengKneecapProduct.h" />
     <ClInclude Include="Filter.h" />
     <ClInclude Include="FilterManager.h" />
     <ClInclude Include="Flyweight.h" />
@@ -106,12 +139,22 @@
     <ClInclude Include="FootballTickets.h" />
     <ClInclude Include="FootballTicketsOffice.h" />
     <ClInclude Include="FrontController.h" />
+    <ClInclude Include="GLC.h" />
+    <ClInclude Include="GoggleProduct.h" />
     <ClInclude Include="Goods.h" />
     <ClInclude Include="GroundAfterUsedState.h" />
     <ClInclude Include="GroundBeforeUsingState.h" />
     <ClInclude Include="GroundState.h" />
+    <ClInclude Include="HelmetProduct.h" />
+    <ClInclude Include="InterfaceFluent.h" />
     <ClInclude Include="Interpreter.h" />
+    <ClInclude Include="KCl.h" />
+    <ClInclude Include="KneecapProduct.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="LongFactory.h" />
+    <ClInclude Include="LongGoggleProduct.h" />
+    <ClInclude Include="LongHelmetProduct.h" />
+    <ClInclude Include="LongKneecapProduct.h" />
     <ClInclude Include="LookGoodsFilter.h" />
     <ClInclude Include="LookPorterFilter.h" />
     <ClInclude Include="MatchProblemSolver.h" />
@@ -119,6 +162,7 @@
     <ClInclude Include="MenuComponent.h" />
     <ClInclude Include="MenuItem.h" />
     <ClInclude Include="MMenu.h" />
+    <ClInclude Include="NaCl.h" />
     <ClInclude Include="ObjectPool.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="OlympicServiceCenter.h" />
@@ -126,6 +170,7 @@
     <ClInclude Include="Operations.h" />
     <ClInclude Include="order.h" />
     <ClInclude Include="Page.h" />
+    <ClInclude Include="PersonalInformation.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PoolGround.h" />
     <ClInclude Include="Porter.h" />
@@ -147,9 +192,12 @@
     <ClInclude Include="ServiceDelegate.h" />
     <ClInclude Include="ServiceHall.h" />
     <ClInclude Include="ShopAssitant.h" />
+    <ClInclude Include="SportsDrinks.h" />
+    <ClInclude Include="SportsDrinksDecorator.h" />
     <ClInclude Include="SportsGround.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="Subject.h" />
+    <ClInclude Include="SUC.h" />
     <ClInclude Include="SwimmingTickets.h" />
     <ClInclude Include="SwimTicketsOffice.h" />
     <ClInclude Include="Tickets.h" />
@@ -158,6 +206,8 @@
     <ClInclude Include="Tool.h" />
     <ClInclude Include="TrackGround.h" />
     <ClInclude Include="Tree.h" />
+    <ClInclude Include="VitaminB6.h" />
+    <ClInclude Include="VitaminC.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

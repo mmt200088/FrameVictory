@@ -13,11 +13,14 @@
 #include"composite.h"
 #include"command.h"
 #include"FrontController.h"
+#include"Decorator.h"
+#include"AbstractFactory.h"
+#include"InterfaceFluent.h"
 int main()
 {
-	Proxy *myPro = new Proxy();//xjt
-	Observer *myObs = new Observer();//xjt
-	Register* myRes = new  Register();//xjt
+	Proxy *myPro = new Proxy();//xjt 动物委员会 挖洞锦标赛的故事
+	Observer *myObs = new Observer();//xjt 智能手表
+	Register* myRes = new  Register();//xjt 田径场登记
 	Flyweight* myFly = new Flyweight();//hyo
 	BusinessDelegate* myBus = new BusinessDelegate();//hyo
 	state* mySta = new state();//hyo
@@ -26,7 +29,10 @@ int main()
 	command* myAnd = new command();//syj 运动会小卖部
 	composite* mySit = new composite();//syj 赛事导航
 	FrontController* myFro = new FrontController();//syj 运动会服务中心
-	mySev->test();//
+	InterfaceFluent* myInt = new InterfaceFluent();//hdl 运动会入场登记
+	AbstractFactory* myAbs = new AbstractFactory();//hdl 运动会护具生产
+	Decorator* myDec = new Decorator();//hdl 运动饮料调配
+	myInt->test();//
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

@@ -1082,5 +1082,8 @@
     <ClInclude Include="improvedRecordOrder.hpp">
       <Filter>头文件\ht\ReplaceTempWithQuery</Filter>
     </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -28,6 +28,7 @@
 #include"ReplaceTempWithQueryPattern.hpp"
 #include"SpecificationPattern.hpp"
 #include"IteratorPattern.hpp"
+#include"Animation.h"
 int main()
 {
 	Proxy *myPro = new Proxy();//xjt 动物委员会 挖洞锦标赛的故事
@@ -56,7 +57,9 @@ int main()
 	IteratorPattern* myIte = new IteratorPattern();//ht 排队进场
 	ReplaceTempWithQueryPattern* myRep = new ReplaceTempWithQueryPattern();//ht 动物付钱
 	SpecificationPattern* mySpe = new SpecificationPattern();//ht 获奖评估
-	myIte->test();//
+	Animation* myAnimation = new Animation();//动画
+	
+	myAnimation->start();//
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

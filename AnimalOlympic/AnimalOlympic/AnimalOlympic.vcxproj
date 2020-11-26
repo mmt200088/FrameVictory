@@ -20,12 +20,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFactory.cpp" />
+    <ClCompile Include="AbstractSpecification.cpp" />
     <ClCompile Include="Add.cpp" />
     <ClCompile Include="AddGoodsFilter.cpp" />
     <ClCompile Include="AddPorterFilter.cpp" />
+    <ClCompile Include="AndSpecification.cpp" />
+    <ClCompile Include="AnimalCandidate.cpp" />
     <ClCompile Include="AnimalOlympic.cpp" />
     <ClCompile Include="AnimalSportsDrinks.cpp" />
     <ClCompile Include="AthleticsCompetitionCard.cpp" />
+    <ClCompile Include="attendingdoctor.cpp" />
+    <ClCompile Include="audience.cpp" />
     <ClCompile Include="BallCompetitionCard.cpp" />
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="Bridge.cpp" />
@@ -33,6 +38,9 @@
     <ClCompile Include="BusinessDelegate.cpp" />
     <ClCompile Include="BuyGoodsFilter.cpp" />
     <ClCompile Include="CClient.cpp" />
+    <ClCompile Include="ChainsOfResponsibilityPattern.cpp" />
+    <ClCompile Include="ChampionSpecification.cpp" />
+    <ClCompile Include="CheifDoctor.cpp" />
     <ClCompile Include="Clerk.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="command.cpp" />
@@ -42,9 +50,11 @@
     <ClCompile Include="composite.cpp" />
     <ClCompile Include="CopperMedal.cpp" />
     <ClCompile Include="Decorator.cpp" />
+    <ClCompile Include="doctor.cpp" />
     <ClCompile Include="DolphinPlayer.cpp" />
     <ClCompile Include="DrinkingService.cpp" />
     <ClCompile Include="Elephantplayer.cpp" />
+    <ClCompile Include="EmergencyDoctor.cpp" />
     <ClCompile Include="FacilityProblemSolver.cpp" />
     <ClCompile Include="Factory.cpp" />
     <ClCompile Include="FengFactory.cpp" />
@@ -61,8 +71,11 @@
     <ClCompile Include="Goods.cpp" />
     <ClCompile Include="GroundAfterUsedState.cpp" />
     <ClCompile Include="GroundBeforeUsingState.cpp" />
+    <ClCompile Include="HasCheatedSpecification.cpp" />
     <ClCompile Include="HelmetProduct.cpp" />
+    <ClCompile Include="improvedRecordOrder.cpp" />
     <ClCompile Include="InterfaceFluent.cpp" />
+    <ClCompile Include="IteratorPattern.cpp" />
     <ClCompile Include="KCl.cpp" />
     <ClCompile Include="KneecapProduct.cpp" />
     <ClCompile Include="LionPlayer.cpp" />
@@ -75,13 +88,20 @@
     <ClCompile Include="LookPorterFilter.cpp" />
     <ClCompile Include="MatchProblemSolver.cpp" />
     <ClCompile Include="Medal.cpp" />
+    <ClCompile Include="MedalSpecification.cpp" />
     <ClCompile Include="MenuItem.cpp" />
     <ClCompile Include="MMenu.cpp" />
     <ClCompile Include="Multiton.cpp" />
     <ClCompile Include="NaCl.cpp" />
+    <ClCompile Include="normaldoctor.cpp" />
+    <ClCompile Include="NotSpecification.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="OlympicServiceCenter.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="OrSpecification.cpp" />
     <ClCompile Include="Page.cpp" />
+    <ClCompile Include="pastRecordOrder.cpp" />
+    <ClCompile Include="patient.cpp" />
     <ClCompile Include="PersonalInformation.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PoolGround.cpp" />
@@ -95,6 +115,7 @@
     <ClCompile Include="QueryService.cpp" />
     <ClCompile Include="Reduce.cpp" />
     <ClCompile Include="Register.cpp" />
+    <ClCompile Include="ReplaceTempWithQueryPattern.cpp" />
     <ClCompile Include="RequestDispatcher.cpp" />
     <ClCompile Include="safeProblemSolver.cpp" />
     <ClCompile Include="Service.cpp" />
@@ -104,6 +125,7 @@
     <ClCompile Include="SilverMedal.cpp" />
     <ClCompile Include="Singing.cpp" />
     <ClCompile Include="SingletonMemento.cpp" />
+    <ClCompile Include="SpecificationPattern.cpp" />
     <ClCompile Include="SportsDrinks.cpp" />
     <ClCompile Include="SportsDrinksDecorator.cpp" />
     <ClCompile Include="State.cpp" />
@@ -120,14 +142,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="AbstractSpecification.hpp" />
     <ClInclude Include="Adapter.h" />
     <ClInclude Include="Add.h" />
     <ClInclude Include="AddGoodsFilter.h" />
     <ClInclude Include="AddPorterFilter.h" />
+    <ClInclude Include="aggregate.hpp" />
+    <ClInclude Include="AndSpecification.hpp" />
+    <ClInclude Include="AnimalCandidate.hpp" />
     <ClInclude Include="AnimalSportsDrinks.h" />
     <ClInclude Include="AthleticsCompetitionCard.h" />
+    <ClInclude Include="attendingdoctor.hpp" />
+    <ClInclude Include="audience.hpp" />
     <ClInclude Include="BallCompetitionCard.h" />
     <ClInclude Include="BandageCmd.h" />
+    <ClInclude Include="basic.h" />
+    <ClInclude Include="basic.hpp" />
     <ClInclude Include="Board.h" />
     <ClInclude Include="Bridge.h" />
     <ClInclude Include="Builder.h" />
@@ -136,6 +166,9 @@
     <ClInclude Include="CareTaker.h" />
     <ClInclude Include="CCClient.h" />
     <ClInclude Include="CClient.h" />
+    <ClInclude Include="ChainsOfResponsibilityPattern.hpp" />
+    <ClInclude Include="ChampionSpecification.hpp" />
+    <ClInclude Include="CheifDoctor.hpp" />
     <ClInclude Include="Clerk.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="command.h" />
@@ -148,8 +181,10 @@
     <ClInclude Include="CustomeManager.h" />
     <ClInclude Include="Decorator.h" />
     <ClInclude Include="Dish.h" />
+    <ClInclude Include="doctor.hpp" />
     <ClInclude Include="DrinkCmd.h" />
     <ClInclude Include="DrinkingService.h" />
+    <ClInclude Include="EmergencyDoctor.hpp" />
     <ClInclude Include="Equipment.h" />
     <ClInclude Include="Expression.h" />
     <ClInclude Include="FacilityProblemSolver.h" />
@@ -176,9 +211,13 @@
     <ClInclude Include="GroundAfterUsedState.h" />
     <ClInclude Include="GroundBeforeUsingState.h" />
     <ClInclude Include="GroundState.h" />
+    <ClInclude Include="HasCheatedSpecification.hpp" />
     <ClInclude Include="HelmetProduct.h" />
+    <ClInclude Include="improvedRecordOrder.hpp" />
     <ClInclude Include="InterfaceFluent.h" />
     <ClInclude Include="Interpreter.h" />
+    <ClInclude Include="iterator.hpp" />
+    <ClInclude Include="IteratorPattern.hpp" />
     <ClInclude Include="KCl.h" />
     <ClInclude Include="KneecapProduct.h" />
     <ClInclude Include="List.h" />
@@ -190,6 +229,7 @@
     <ClInclude Include="LookPorterFilter.h" />
     <ClInclude Include="MatchProblemSolver.h" />
     <ClInclude Include="Medal.h" />
+    <ClInclude Include="MedalSpecification.hpp" />
     <ClInclude Include="Mediator.h" />
     <ClInclude Include="Memento.h" />
     <ClInclude Include="Menu.h" />
@@ -199,6 +239,8 @@
     <ClInclude Include="Multiton.h" />
     <ClInclude Include="Music.h" />
     <ClInclude Include="NaCl.h" />
+    <ClInclude Include="normaldoctor.hpp" />
+    <ClInclude Include="NotSpecification.hpp" />
     <ClInclude Include="OAAdapter.h" />
     <ClInclude Include="ObjectPool.h" />
     <ClInclude Include="Observer.h" />
@@ -206,8 +248,12 @@
     <ClInclude Include="Operation.h" />
     <ClInclude Include="Operations.h" />
     <ClInclude Include="order.h" />
+    <ClInclude Include="Order.hpp" />
+    <ClInclude Include="OrSpecification.hpp" />
     <ClInclude Include="Otheranimals.h" />
     <ClInclude Include="Page.h" />
+    <ClInclude Include="pastRecordOrder.hpp" />
+    <ClInclude Include="patient.hpp" />
     <ClInclude Include="PersonalInformation.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PoolGround.h" />
@@ -220,8 +266,10 @@
     <ClInclude Include="Myprototype.h" />
     <ClInclude Include="Proxy.h" />
     <ClInclude Include="QueryService.h" />
+    <ClInclude Include="rbasic.h" />
     <ClInclude Include="Reduce.h" />
     <ClInclude Include="Register.h" />
+    <ClInclude Include="ReplaceTempWithQueryPattern.hpp" />
     <ClInclude Include="RequestDispatcher.h" />
     <ClInclude Include="RequestSolvable.h" />
     <ClInclude Include="RunningTickets.h" />
@@ -234,6 +282,8 @@
     <ClInclude Include="SilverMedal.h" />
     <ClInclude Include="SingletonMemento.h" />
     <ClInclude Include="SnookerCompetition.h" />
+    <ClInclude Include="SpecificationInterface.hpp" />
+    <ClInclude Include="SpecificationPattern.hpp" />
     <ClInclude Include="SportsDrinks.h" />
     <ClInclude Include="SportsDrinksDecorator.h" />
     <ClInclude Include="SportsGround.h" />
@@ -244,6 +294,7 @@
     <ClInclude Include="SUC.h" />
     <ClInclude Include="SwimmingTickets.h" />
     <ClInclude Include="SwimTicketsOffice.h" />
+    <ClInclude Include="TicketChecking.hpp" />
     <ClInclude Include="Tickets.h" />
     <ClInclude Include="TicketService.h" />
     <ClInclude Include="TicketsOffice.h" />
@@ -342,6 +393,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

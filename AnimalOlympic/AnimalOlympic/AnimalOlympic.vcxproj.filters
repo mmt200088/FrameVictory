@@ -199,6 +199,36 @@
     <Filter Include="头文件\zxm\Prototype">
       <UniqueIdentifier>{591a0800-b3c4-414b-a869-f3551d0a7888}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\ht">
+      <UniqueIdentifier>{876c6d40-00b8-45bf-88eb-476b060a9d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ht">
+      <UniqueIdentifier>{27e4816b-1d9c-4e8d-afe4-14247625faf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ht\ChainsOfResponsibility">
+      <UniqueIdentifier>{d7b31088-97d5-4183-b32f-bf07c4de6272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ht\ChainsOfResponsibility">
+      <UniqueIdentifier>{d0c457e0-c5f9-4193-934a-8ea916a5b1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ht\Iterator">
+      <UniqueIdentifier>{7e6fe194-6ed3-467d-b16c-e4e7ab8c7fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ht\Specification">
+      <UniqueIdentifier>{4d41ef70-b1ec-4450-aaf9-e218d4d3e176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ht\ReplaceTempWithQuery">
+      <UniqueIdentifier>{469b8b77-671a-4d9b-b2a0-c64740b74d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ht\Iterator">
+      <UniqueIdentifier>{e39c5584-36d8-4590-932d-4b995f93602a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ht\Specification">
+      <UniqueIdentifier>{ebfadaa4-14ed-41c1-a0fa-67a36de8334c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ht\ReplaceTempWithQuery">
+      <UniqueIdentifier>{c4a5570b-6acf-41f6-8fec-7090a89d6403}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -494,6 +524,72 @@
     </ClCompile>
     <ClCompile Include="Myprototype.cpp">
       <Filter>源文件\zxm\Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="attendingdoctor.cpp">
+      <Filter>源文件\ht\ChainsOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainsOfResponsibilityPattern.cpp">
+      <Filter>源文件\ht\ChainsOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="CheifDoctor.cpp">
+      <Filter>源文件\ht\ChainsOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="doctor.cpp">
+      <Filter>源文件\ht\ChainsOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="EmergencyDoctor.cpp">
+      <Filter>源文件\ht\ChainsOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="normaldoctor.cpp">
+      <Filter>源文件\ht\ChainsOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="patient.cpp">
+      <Filter>源文件\ht\ChainsOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="audience.cpp">
+      <Filter>源文件\ht\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="IteratorPattern.cpp">
+      <Filter>源文件\ht\Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSpecification.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="AndSpecification.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimalCandidate.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="ChampionSpecification.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="HasCheatedSpecification.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="MedalSpecification.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="NotSpecification.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="OrSpecification.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecificationPattern.cpp">
+      <Filter>源文件\ht\Specification</Filter>
+    </ClCompile>
+    <ClCompile Include="improvedRecordOrder.cpp">
+      <Filter>源文件\ht\ReplaceTempWithQuery</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>源文件\ht\ReplaceTempWithQuery</Filter>
+    </ClCompile>
+    <ClCompile Include="pastRecordOrder.cpp">
+      <Filter>源文件\ht\ReplaceTempWithQuery</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaceTempWithQueryPattern.cpp">
+      <Filter>源文件\ht\ReplaceTempWithQuery</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -898,6 +994,93 @@
     </ClInclude>
     <ClInclude Include="Myprototype.h">
       <Filter>头文件\zxm\Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="attendingdoctor.hpp">
+      <Filter>头文件\ht\ChainsOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="basic.hpp">
+      <Filter>头文件\ht\ChainsOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainsOfResponsibilityPattern.hpp">
+      <Filter>头文件\ht\ChainsOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="CheifDoctor.hpp">
+      <Filter>头文件\ht\ChainsOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="doctor.hpp">
+      <Filter>头文件\ht\ChainsOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="patient.hpp">
+      <Filter>头文件\ht\ChainsOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="normaldoctor.hpp">
+      <Filter>头文件\ht\ChainsOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="EmergencyDoctor.hpp">
+      <Filter>头文件\ht\ChainsOfResponsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="TicketChecking.hpp">
+      <Filter>头文件\ht\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratorPattern.hpp">
+      <Filter>头文件\ht\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator.hpp">
+      <Filter>头文件\ht\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="audience.hpp">
+      <Filter>头文件\ht\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="aggregate.hpp">
+      <Filter>头文件\ht\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecificationPattern.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecificationInterface.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="OrSpecification.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="NotSpecification.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="MedalSpecification.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="HasCheatedSpecification.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="ChampionSpecification.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="basic.h">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalCandidate.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="AndSpecification.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSpecification.hpp">
+      <Filter>头文件\ht\Specification</Filter>
+    </ClInclude>
+    <ClInclude Include="rbasic.h">
+      <Filter>头文件\ht\ReplaceTempWithQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="pastRecordOrder.hpp">
+      <Filter>头文件\ht\ReplaceTempWithQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaceTempWithQueryPattern.hpp">
+      <Filter>头文件\ht\ReplaceTempWithQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.hpp">
+      <Filter>头文件\ht\ReplaceTempWithQuery</Filter>
+    </ClInclude>
+    <ClInclude Include="improvedRecordOrder.hpp">
+      <Filter>头文件\ht\ReplaceTempWithQuery</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

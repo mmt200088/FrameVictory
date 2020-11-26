@@ -24,6 +24,10 @@
 #include"Myprototype.h"
 #include"SingletonMemento.h"
 #include"StaticFactoryMethod.h"
+#include"ChainsOfResponsibilityPattern.hpp"
+#include"ReplaceTempWithQueryPattern.hpp"
+#include"SpecificationPattern.hpp"
+#include"IteratorPattern.hpp"
 int main()
 {
 	Proxy *myPro = new Proxy();//xjt 动物委员会 挖洞锦标赛的故事
@@ -48,7 +52,11 @@ int main()
 	StaticFactoryMethod* mySfm = new StaticFactoryMethod();//zxm 发参赛证
 	Myprototype* myTyp = new Myprototype();//zxm 奖牌打造
 	SingletonMemento* mySin = new SingletonMemento();//zxm 台球比赛
-	mySin->test();//
+	ChainsOfResponsibilityPattern* myCha = new ChainsOfResponsibilityPattern();//ht 动物医院
+	IteratorPattern* myIte = new IteratorPattern();//ht 排队进场
+	ReplaceTempWithQueryPattern* myRep = new ReplaceTempWithQueryPattern();//ht 动物付钱
+	SpecificationPattern* mySpe = new SpecificationPattern();//ht 获奖评估
+	myIte->test();//
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

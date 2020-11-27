@@ -229,5 +229,4 @@ void Bridge::test()
 	}
 	}
 	cout << "在买到了自己心仪的饮料后，你赶紧回去准备投入下半场的裁判工作中去了" << endl << endl;
-	system("pause");
 }

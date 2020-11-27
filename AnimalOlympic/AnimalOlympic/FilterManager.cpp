@@ -17,8 +17,8 @@ FilterManager::FilterManager(Page* page) {
 
 void FilterManager::execute() {
 	string order;
-	cout << "-----动物运动会后勤管理系统-----" << endl;
-	cout << "你可以对后勤系统进行如下操作" << endl;
+	cout << "-----动物运动会物资管理系统-----" << endl;
+	cout << "你可以对物资系统进行如下操作" << endl;
 	cout << "操作列表：" << endl;
 	cout << "0、退出" << endl;
 	cout << "1、查看物资" << endl;

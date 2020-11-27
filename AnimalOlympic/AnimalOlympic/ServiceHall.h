@@ -1,7 +1,10 @@
-#include<Windows.h>
+#pragma once
 #include"FactoryMethod.h"
 #include"Interpreter.h"
 #include"ObjectPool.h"
+#include<Windows.h>
+#include"Substitute.h"
+
 /* 场景介绍：这是运动会服务大厅，顾客进门后会有机器人接待，机器人会介绍
  * 服务大厅的三个功能——门票购买，小吃购买，服装租借。由于剧情设置，用户
  * 目前每天只能体验一种功能。整个故事分为三幕，其中包含许多与用户交互的
@@ -16,7 +19,7 @@
  *
  * 1853806 Wu Jiaqi
  */
-using namespace std;
+
 class ServiceHall {
 public:
 	//测试代码
@@ -24,14 +27,15 @@ public:
 		cout << "This is animal olympic games project." << endl;
 		cout << "And these scenes are designed by Wujiaqi." << endl << endl;
 		cout << "/* 场景介绍：这是运动会服务大厅，顾客进门后会有机器人接待，机器人会介绍" << endl;
-		cout << " * 服务大厅的三个功能——门票购买，小吃购买，服装租借。由于剧情设置，用户" << endl;
-		cout << " * 目前每天只能体验一种功能。整个故事分为三幕，其中包含许多与用户交互的" << endl;
+		cout << " * 服务大厅的四个功能——门票购买，小吃购买，服装租借，活动专区。由于剧情设置，" << endl;
+		cout << " * 用户目前每天只能体验一种功能。整个故事分为三幕，其中包含许多与用户交互的" << endl;
 		cout << " * 场景。希望您用心体验。" << endl;
 		cout << " *" << endl;
-		cout << " * 这三个场景对应我负责的三个设计模式：" << endl;
+		cout << " * 这四个场景对应我负责的四个设计模式：" << endl;
 		cout << " * 1.门票购买 —— Factory Method" << endl;
 		cout << " * 2.小吃购买 —— Interpreter" << endl;
 		cout << " * 3.服装租借 —— Objectpool" << endl;
+		cout << " * 4.活动专区 —— Substitute Algorithm" << endl;
 		cout << " *" << endl;
 		cout << " * 每个设计模式的原理与实现请移步与设计模式同名的头文件，我在其中提供了详尽的注释。" << endl;
 		cout << " *" << endl;
@@ -46,7 +50,7 @@ public:
 		cout << "# Background:" << endl;
 		cout << "#   I design a comprehensive service hall for sports meeting." << endl;
 		cout << "# And it is constructed for the audience.In this hall, I set " << endl;
-		cout << "# three functional areas for animals. Each of them corresponds" << endl;
+		cout << "# four functional areas for animals. Each of them corresponds" << endl;
 		cout << "# to a design pattern. Next,you will act as a customer to test." << endl;
 		cout << "#   Let's start your journey!" << endl << endl;
 		cout << "# Roles:" << endl;
@@ -69,7 +73,7 @@ public:
 		Sleep(3000);
 		
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_RED);
-		cout << "Robot:In service hall, you have 3 choices." << endl;
+		cout << "Robot:In service hall, you have 4 choices." << endl;
 		Sleep(1000);
 		cout << "Robot:Please look at our service panel." << endl << endl;
 		Sleep(3000);
@@ -77,11 +81,12 @@ public:
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED);
 		cout << "(look up at the panel curiously)" << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_GREEN | FOREGROUND_RED);
-		cout << "************************************************************" << endl;
-		cout << "* 1.Buy tickets for today's game(Factory Method)           *" << endl;
-		cout << "* 2.Buy snacks to enjoy the game(Interpreter)              *" << endl;
-		cout << "* 3.Rent fan's costumes for your favorite team(ObjectPool) *" << endl;
-		cout << "************************************************************" << endl << endl;
+		cout << "*******************************************************************" << endl;
+		cout << "* 1.Buy tickets for today's game(Factory Method)                  *" << endl;
+		cout << "* 2.Buy snacks to enjoy the game(Interpreter)                     *" << endl;
+		cout << "* 3.Rent fan's costumes for your favorite team(ObjectPool)        *" << endl;
+		cout << "* 4.Participate in activities to win awards(Substitute Algorithm) *" << endl;
+		cout << "*******************************************************************" << endl << endl;
 		Sleep(5000);
 		
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_RED);
@@ -93,7 +98,7 @@ public:
 		
 		//玩家选择场景（设计模式）
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED);
-		cout << "(System prompt)Please make your choice(1:Pattern 1, 2:Pattern 2, 3:Pattern 3)";
+		cout << "(System prompt)Please make your choice(1:Pattern 1, 2:Pattern 2, 3:Pattern 3, 4:Pattern 4, others:exit)";
 		string s;
 		cin >> s;
 
@@ -152,6 +157,25 @@ public:
 			//创建对应设计模式的实例
 			ObjectPool obj;
 			obj.test();
+		}
+
+		//场景4
+		else if (s == "4") {
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_GREEN);
+			cout << "Customer(you):Well,I like to participate in interesting activities first." << endl << endl;
+			Sleep(3000);
+
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_RED);
+			cout << "Robot:OK,you can go with me." << endl << endl;
+			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_INTENSITY | FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED);
+			cout << "First scene is over." << endl;
+			cout << "-------------------------------------------" << endl;
+			Sleep(3000);
+			system("cls");
+
+			//创建对应设计模式的实例
+			Substitute sub;
+			sub.test();
 		}
 
 		//异常输入，耗子尾汁

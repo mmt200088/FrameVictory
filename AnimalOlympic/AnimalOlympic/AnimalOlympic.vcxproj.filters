@@ -31,12 +31,6 @@
     <Filter Include="源文件\xjt\Observer">
       <UniqueIdentifier>{d72baf05-78ba-4970-b626-73f3a4799b1d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\xjt\Register">
-      <UniqueIdentifier>{92bbcdcc-3229-4e92-b17d-ee35239dc580}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="头文件\xjt\Register">
-      <UniqueIdentifier>{a9ddc70d-fe88-409a-8a59-8ca7c7e8dc3c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="头文件\hyo">
       <UniqueIdentifier>{ec03a355-06f1-49f5-8791-cd2c5a9d87b3}</UniqueIdentifier>
     </Filter>
@@ -229,6 +223,27 @@
     <Filter Include="头文件\ht\ReplaceTempWithQuery">
       <UniqueIdentifier>{c4a5570b-6acf-41f6-8fec-7090a89d6403}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\lxp\HideDelegate">
+      <UniqueIdentifier>{8694dd69-17de-45c1-a9bd-ed17b2f84455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter">
+      <UniqueIdentifier>{4704bbb6-b2cf-46d3-a324-185cc2c3ebd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter">
+      <UniqueIdentifier>{39cfa401-ede1-4cb2-b980-2de7e20838bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\lxp\HideDelegate">
+      <UniqueIdentifier>{627dd464-23c7-43b3-9873-08efee034771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\xjt\Register&amp;InlineTemp">
+      <UniqueIdentifier>{a9ddc70d-fe88-409a-8a59-8ca7c7e8dc3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\xjt\Register&amp;InlineTemp">
+      <UniqueIdentifier>{92bbcdcc-3229-4e92-b17d-ee35239dc580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\wjq\Substitute">
+      <UniqueIdentifier>{c56f3a12-9fe8-4855-8483-9c16da07a4b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -253,10 +268,10 @@
       <Filter>源文件\xjt\Observer</Filter>
     </ClCompile>
     <ClCompile Include="Tree.cpp">
-      <Filter>源文件\xjt\Register</Filter>
+      <Filter>源文件\xjt\Register&amp;InlineTemp</Filter>
     </ClCompile>
     <ClCompile Include="Register.cpp">
-      <Filter>源文件\xjt\Register</Filter>
+      <Filter>源文件\xjt\Register&amp;InlineTemp</Filter>
     </ClCompile>
     <ClCompile Include="Flyweight.cpp">
       <Filter>源文件\hyo\Flyweight</Filter>
@@ -305,54 +320,6 @@
     </ClCompile>
     <ClCompile Include="TicketService.cpp">
       <Filter>源文件\hyo\BusinessDelegate</Filter>
-    </ClCompile>
-    <ClCompile Include="Add.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="AddGoodsFilter.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="AddPorterFilter.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="BuyGoodsFilter.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="CClient.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="Filter.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="FilterManager.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="Goods.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="List.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="LookGoodsFilter.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="LookPorterFilter.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="Page.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="Porter.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="PortFilter.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="Reduce.cpp">
-      <Filter>源文件\lxp</Filter>
-    </ClCompile>
-    <ClCompile Include="ServiceHall.cpp">
-      <Filter>源文件\wjq</Filter>
     </ClCompile>
     <ClCompile Include="Clerk.cpp">
       <Filter>源文件\syj\Command</Filter>
@@ -471,9 +438,6 @@
     <ClCompile Include="Multiton.cpp">
       <Filter>源文件\yqx\Multiton</Filter>
     </ClCompile>
-    <ClCompile Include="Builder.cpp">
-      <Filter>源文件\yqx\Builder</Filter>
-    </ClCompile>
     <ClCompile Include="LionPlayer.cpp">
       <Filter>源文件\zmz\Adapter</Filter>
     </ClCompile>
@@ -591,13 +555,76 @@
     <ClCompile Include="ReplaceTempWithQueryPattern.cpp">
       <Filter>源文件\ht\ReplaceTempWithQuery</Filter>
     </ClCompile>
+    <ClCompile Include="WinterCompetitionCard.cpp">
+      <Filter>源文件\zxm\StaticFactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>源文件\yqx\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Reduce.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="PortFilter.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Porter.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Page.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="LookPorterFilter.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="LookGoodsFilter.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Goods.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterManager.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="CClient.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyGoodsFilter.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPorterFilter.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="AddGoodsFilter.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Add.cpp">
+      <Filter>源文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Department.cpp">
+      <Filter>源文件\lxp\HideDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="HideDelegate.cpp">
+      <Filter>源文件\lxp\HideDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="Personnel.cpp">
+      <Filter>源文件\lxp\HideDelegate</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceHall.cpp">
+      <Filter>源文件\wjq</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Register.h">
-      <Filter>头文件\xjt\Register</Filter>
+      <Filter>头文件\xjt\Register&amp;InlineTemp</Filter>
     </ClInclude>
     <ClInclude Include="Tree.h">
-      <Filter>头文件\xjt\Register</Filter>
+      <Filter>头文件\xjt\Register&amp;InlineTemp</Filter>
     </ClInclude>
     <ClInclude Include="Proxy.h">
       <Filter>头文件\xjt\Proxy</Filter>
@@ -671,63 +698,6 @@
     <ClInclude Include="TrackGround.h">
       <Filter>头文件\hyo\State&amp;Template</Filter>
     </ClInclude>
-    <ClInclude Include="Add.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="AddGoodsFilter.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="AddPorterFilter.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="BuyGoodsFilter.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="CClient.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Equipment.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Filter.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="FilterManager.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Food.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Goods.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="List.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="LookGoodsFilter.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="LookPorterFilter.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Operation.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Page.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Porter.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="PortFilter.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Reduce.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
-    <ClInclude Include="Tool.h">
-      <Filter>头文件\lxp</Filter>
-    </ClInclude>
     <ClInclude Include="FactoryMethod.h">
       <Filter>头文件\wjq\FactoryMethod</Filter>
     </ClInclude>
@@ -781,9 +751,6 @@
     </ClInclude>
     <ClInclude Include="ObjectPool.h">
       <Filter>头文件\wjq\ObjectPool</Filter>
-    </ClInclude>
-    <ClInclude Include="ServiceHall.h">
-      <Filter>头文件\wjq\Test</Filter>
     </ClInclude>
     <ClInclude Include="BandageCmd.h">
       <Filter>头文件\syj\Command</Filter>
@@ -1084,6 +1051,84 @@
     </ClInclude>
     <ClInclude Include="Animation.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuidenceAll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinterCompetitionCard.h">
+      <Filter>头文件\zxm\StaticFactoryMethod</Filter>
+    </ClInclude>
+    <ClInclude Include="Add.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="AddGoodsFilter.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="AddPorterFilter.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyGoodsFilter.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Reduce.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="PortFilter.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Porter.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Page.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="LookPorterFilter.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="LookGoodsFilter.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Goods.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterManager.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="CClient.h">
+      <Filter>头文件\lxp\Visitor&amp;Facade&amp;InterceptionFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Personnel.h">
+      <Filter>头文件\lxp\HideDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="HideDelegate.h">
+      <Filter>头文件\lxp\HideDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Department.h">
+      <Filter>头文件\lxp\HideDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceHall.h">
+      <Filter>头文件\wjq\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Substitute.h">
+      <Filter>头文件\wjq\Substitute</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

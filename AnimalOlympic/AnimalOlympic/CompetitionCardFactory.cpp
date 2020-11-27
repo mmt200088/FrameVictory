@@ -15,6 +15,9 @@ CompetitionCard* CompetitionCardFactory::createCard(TYPE type) {
 	case 3:
 		card = new WaterCompetitionCard();
 		break;
+	case 4:
+		card = new WinterCompetitionCard();
+		break;
 	default:
 		break;
 

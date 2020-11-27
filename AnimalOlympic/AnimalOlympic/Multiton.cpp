@@ -107,6 +107,5 @@ void Multiton::test()
 		cout << "恭喜你中奖啦，下一届人类运动会的吉祥物就决定是你啦！" << endl;
 	else
 		cout << "真遗憾没有中奖呢，不过开奖的过程真是紧张又刺激呢~" << endl << endl;
-	system("pause");
 }
 

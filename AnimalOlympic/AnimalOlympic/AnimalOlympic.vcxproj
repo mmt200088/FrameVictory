@@ -50,6 +50,7 @@
     <ClCompile Include="composite.cpp" />
     <ClCompile Include="CopperMedal.cpp" />
     <ClCompile Include="Decorator.cpp" />
+    <ClCompile Include="Department.cpp" />
     <ClCompile Include="doctor.cpp" />
     <ClCompile Include="DolphinPlayer.cpp" />
     <ClCompile Include="DrinkingService.cpp" />
@@ -73,6 +74,7 @@
     <ClCompile Include="GroundBeforeUsingState.cpp" />
     <ClCompile Include="HasCheatedSpecification.cpp" />
     <ClCompile Include="HelmetProduct.cpp" />
+    <ClCompile Include="HideDelegate.cpp" />
     <ClCompile Include="improvedRecordOrder.cpp" />
     <ClCompile Include="InterfaceFluent.cpp" />
     <ClCompile Include="IteratorPattern.cpp" />
@@ -103,6 +105,7 @@
     <ClCompile Include="pastRecordOrder.cpp" />
     <ClCompile Include="patient.cpp" />
     <ClCompile Include="PersonalInformation.cpp" />
+    <ClCompile Include="Personnel.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PoolGround.cpp" />
     <ClCompile Include="Porter.cpp" />
@@ -139,6 +142,7 @@
     <ClCompile Include="VitaminB6.cpp" />
     <ClCompile Include="VitaminC.cpp" />
     <ClCompile Include="WaterCompetitionCard.cpp" />
+    <ClCompile Include="WinterCompetitionCard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
@@ -181,6 +185,7 @@
     <ClInclude Include="CopperMedal.h" />
     <ClInclude Include="CustomeManager.h" />
     <ClInclude Include="Decorator.h" />
+    <ClInclude Include="Department.h" />
     <ClInclude Include="Dish.h" />
     <ClInclude Include="doctor.hpp" />
     <ClInclude Include="DrinkCmd.h" />
@@ -212,8 +217,10 @@
     <ClInclude Include="GroundAfterUsedState.h" />
     <ClInclude Include="GroundBeforeUsingState.h" />
     <ClInclude Include="GroundState.h" />
+    <ClInclude Include="GuidenceAll.h" />
     <ClInclude Include="HasCheatedSpecification.hpp" />
     <ClInclude Include="HelmetProduct.h" />
+    <ClInclude Include="HideDelegate.h" />
     <ClInclude Include="improvedRecordOrder.hpp" />
     <ClInclude Include="InterfaceFluent.h" />
     <ClInclude Include="Interpreter.h" />
@@ -256,6 +263,7 @@
     <ClInclude Include="pastRecordOrder.hpp" />
     <ClInclude Include="patient.hpp" />
     <ClInclude Include="PersonalInformation.h" />
+    <ClInclude Include="Personnel.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PoolGround.h" />
     <ClInclude Include="Porter.h" />
@@ -292,6 +300,7 @@
     <ClInclude Include="StaticFactoryMethod.h" />
     <ClInclude Include="Statistics.h" />
     <ClInclude Include="Subject.h" />
+    <ClInclude Include="Substitute.h" />
     <ClInclude Include="SUC.h" />
     <ClInclude Include="SwimmingTickets.h" />
     <ClInclude Include="SwimTicketsOffice.h" />
@@ -305,6 +314,7 @@
     <ClInclude Include="VitaminB6.h" />
     <ClInclude Include="VitaminC.h" />
     <ClInclude Include="WaterCompetitionCard.h" />
+    <ClInclude Include="WinterCompetitionCard.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

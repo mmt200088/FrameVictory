@@ -1,5 +1,5 @@
 #include "Music.h"
-
+#include<windows.h>
 
 using namespace std;
 class Adapter
@@ -16,6 +16,8 @@ public:
        cout << "海豚、狮子、大象等动物听说了也要凑热闹来一展歌喉，但是他们的体型各不相同，不能用为鸟类设计的小话筒收音。" ;
        cout << "需要有新设备帮忙收录他们的歌声，再通过扬声器播出。" << endl << endl;
        cout << "本程序的oaadapter类就完成了收录其它动物声音的工作（目前支持狮子、海豚、大象三种其他动物，对应输入Lion、Dolphin和Elephant），再由singing类播出，singing类本身就具有收录鸟类声音的能力。（对应输入Bird）" << endl << endl;
+
+       Sleep(3000);
       cout << "         欢迎来到动物运动会的开幕式！！！     " << endl;
       cout << "             欢迎大家前来献唱一曲             " << endl;
       cout << "首先有请百灵鸟给大家献上《See You Again》" << endl;

@@ -85,6 +85,4 @@ void command::test()
 	Sleep(1000);
 	// 收银员通知后台店员处理订单
 	girl->Notify();
-	system("pause");
-
 }

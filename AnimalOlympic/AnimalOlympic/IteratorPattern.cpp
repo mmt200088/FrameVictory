@@ -53,6 +53,6 @@ void IteratorPattern::test()
             cout<<"Welcome! "<<i->next()<<endl;
         }
         cout<<endl;
-        cout<<"Input [add] to add an animal\nInput remove to remove the last animal"<<endl;
+        cout<<"Input [add] to add an animal\nInput remove to remove the last animal\nInput [quit] to quit!"<<endl;
     }
 }

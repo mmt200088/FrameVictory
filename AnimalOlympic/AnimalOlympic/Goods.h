@@ -12,7 +12,7 @@ public:
 	int num;
 	int weight;
 	Goods(string classname, string name, int num, int weight);
-	Goods() {}
+	Goods() {};
 	void Accept(Operation* operation);
 	string getClassname();//获取种类名称
 	string getName();//获取名称

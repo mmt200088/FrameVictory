@@ -38,6 +38,5 @@ public:
 		cout << "运动会进行地如火如荼，突然来了一个带着墨镜，穿着皮衣的闹事者！" << endl;
 		Sleep(1500);
 		olympicServiceCenter->dispatchRequest("NotExistProblem", "我是来闹事的、");
-		system("pause");
 	}
 };

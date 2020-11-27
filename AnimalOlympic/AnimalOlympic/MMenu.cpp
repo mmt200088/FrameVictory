@@ -33,5 +33,5 @@ void MMenu:: print() {
 	}
 
 	cout << endl;
-	Sleep(1000);
+	Sleep(2000);
 }

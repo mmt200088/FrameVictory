@@ -3,5 +3,5 @@
 using namespace std;
 
 void AthleticsCompetitionCard::send() {
-	cout << "这是你的田径运动参赛证，请拿好哦！" << endl;
+	cout << "这是你的陆地运动参赛证，请拿好哦！" << endl;
 }

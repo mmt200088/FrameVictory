@@ -9,6 +9,7 @@ public:
     {
         Statistics sta1;
         int time1; int t = 0; int k = 1;
+        cout << "模式简介：\n";
         cout << "中介者模式（Mediator Pattern）是用来降低多个对象和类之间的通信复杂性。";
         cout << "这种模式提供了一个中介类，该类通常处理不同类之间的通信，并支持松耦合，使代码易于维护。中介者模式属于行为型模式，" ;
         cout << "用一个中介对象来封装一系列的对象交互，中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。" << endl << endl;
@@ -41,7 +42,6 @@ public:
             sta1.sendMessage();
             cout << "     继续比赛请输入1，结束比赛请输入其他      " << endl;
             cin >> k;
-            system("cls");
         }
         cout << "  体操比赛已经结束，感谢大家的积极参与和热情捧场！" << endl;
         return;

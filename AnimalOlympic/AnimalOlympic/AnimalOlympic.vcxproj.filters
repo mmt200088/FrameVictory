@@ -244,6 +244,18 @@
     <Filter Include="头文件\wjq\Substitute">
       <UniqueIdentifier>{c56f3a12-9fe8-4855-8483-9c16da07a4b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\zmz\PrivateClassData">
+      <UniqueIdentifier>{2e9ec8ea-b46d-408d-8711-569ecee1e24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zmz\PrivateClassData">
+      <UniqueIdentifier>{2be82cb2-f448-4350-bf55-c34ee99be5d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\zmz\DataAccess">
+      <UniqueIdentifier>{7829ebc4-00d1-4f25-9aaf-e4eec7cb670b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zmz\DataAccess">
+      <UniqueIdentifier>{f49cd070-a18e-4093-bf63-c923f1f5949d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimalOlympic.cpp">
@@ -617,6 +629,15 @@
     </ClCompile>
     <ClCompile Include="ServiceHall.cpp">
       <Filter>源文件\wjq</Filter>
+    </ClCompile>
+    <ClCompile Include="DAO.cpp">
+      <Filter>源文件\zmz\DataAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseConnect.cpp">
+      <Filter>源文件\zmz\DataAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="VO.cpp">
+      <Filter>源文件\zmz\DataAccess</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1129,6 +1150,24 @@
     </ClInclude>
     <ClInclude Include="Substitute.h">
       <Filter>头文件\wjq\Substitute</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateClassDataDemo.h">
+      <Filter>头文件\zmz\PrivateClassData</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>头文件\zmz\PrivateClassData</Filter>
+    </ClInclude>
+    <ClInclude Include="VO.h">
+      <Filter>头文件\zmz\DataAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseConnect.h">
+      <Filter>头文件\zmz\DataAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAccessDemo.h">
+      <Filter>头文件\zmz\DataAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="DAO.h">
+      <Filter>头文件\zmz\DataAccess</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -49,6 +49,8 @@
     <ClCompile Include="CompetitionCardFactory.cpp" />
     <ClCompile Include="composite.cpp" />
     <ClCompile Include="CopperMedal.cpp" />
+    <ClCompile Include="DAO.cpp" />
+    <ClCompile Include="DataBaseConnect.cpp" />
     <ClCompile Include="Decorator.cpp" />
     <ClCompile Include="Department.cpp" />
     <ClCompile Include="doctor.cpp" />
@@ -141,6 +143,7 @@
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="VitaminB6.cpp" />
     <ClCompile Include="VitaminC.cpp" />
+    <ClCompile Include="VO.cpp" />
     <ClCompile Include="WaterCompetitionCard.cpp" />
     <ClCompile Include="WinterCompetitionCard.cpp" />
   </ItemGroup>
@@ -184,6 +187,9 @@
     <ClInclude Include="composite.h" />
     <ClInclude Include="CopperMedal.h" />
     <ClInclude Include="CustomeManager.h" />
+    <ClInclude Include="DAO.h" />
+    <ClInclude Include="DataAccessDemo.h" />
+    <ClInclude Include="DataBaseConnect.h" />
     <ClInclude Include="Decorator.h" />
     <ClInclude Include="Department.h" />
     <ClInclude Include="Dish.h" />
@@ -273,6 +279,7 @@
     <ClInclude Include="PosterFactory.h" />
     <ClInclude Include="PosterManager.h" />
     <ClInclude Include="Myprototype.h" />
+    <ClInclude Include="PrivateClassDataDemo.h" />
     <ClInclude Include="Proxy.h" />
     <ClInclude Include="QueryService.h" />
     <ClInclude Include="rbasic.h" />
@@ -299,6 +306,7 @@
     <ClInclude Include="State.h" />
     <ClInclude Include="StaticFactoryMethod.h" />
     <ClInclude Include="Statistics.h" />
+    <ClInclude Include="Storage.h" />
     <ClInclude Include="Subject.h" />
     <ClInclude Include="Substitute.h" />
     <ClInclude Include="SUC.h" />
@@ -313,6 +321,7 @@
     <ClInclude Include="Tree.h" />
     <ClInclude Include="VitaminB6.h" />
     <ClInclude Include="VitaminC.h" />
+    <ClInclude Include="VO.h" />
     <ClInclude Include="WaterCompetitionCard.h" />
     <ClInclude Include="WinterCompetitionCard.h" />
   </ItemGroup>

@@ -2,10 +2,5 @@
 C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\AnimalOlympic\Substitute.h(99,11): warning C4566: 由通用字符名称“\u2212”表示的字符不能在当前代码页(936)中表示出来
 C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\AnimalOlympic\Substitute.h(15,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\AnimalOlympic\Substitute.h(32,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\AnimalOlympic\AnimalOlympic.cpp(36,1): warning C4326: “main”的返回类型应为“int”而非“void”
-  ServiceHall.cpp
-C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\AnimalOlympic\Substitute.h(99,11): warning C4566: 由通用字符名称“\u2212”表示的字符不能在当前代码页(936)中表示出来
-C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\AnimalOlympic\Substitute.h(15,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\AnimalOlympic\Substitute.h(32,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  正在生成代码...
+C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\AnimalOlympic\AnimalOlympic.cpp(37,1): warning C4326: “main”的返回类型应为“int”而非“void”
   AnimalOlympic.vcxproj -> C:\Users\apple\Documents\GitHub\FrameVictory\AnimalOlympic\x64\Debug\AnimalOlympic.exe

@@ -1,5 +1,4 @@
-﻿#pragma once
-#include<string>
+﻿#include<string>
 #include <windows.h>
 #include <iostream>
 #include"Proxy.h"
@@ -31,6 +30,8 @@
 #include"Animation.h"
 #include"GuidenceAll.h"
 #include"HideDelegate.h"
+#include"PrivateClassDataDemo.h"
+#include"DataAccessDemo.h"
 using namespace std;
 void main()
 {
@@ -62,8 +63,8 @@ void main()
 	ReplaceTempWithQueryPattern* myRep = new ReplaceTempWithQueryPattern();//ht 动物付钱 D                         1
 	SpecificationPattern* mySpe = new SpecificationPattern();//ht 获奖评估 D                                       1
 	HideDelegate* myHid = new HideDelegate();//lxp
-	mySev->test();
-
+	PrivateClassData* myPri = new PrivateClassData();
+	DataAccess* myDat = new DataAccess();
 
 	Animation* myAnimation = new Animation();//动画
 	GuidenceAll* myALL = new GuidenceAll();//菜单
@@ -115,6 +116,9 @@ void main()
 			myPro->test();//挖洞
 		}
 		else if (type == "A" && number == 10) {
+			myPri->test();//举重
+		}
+		else if (type == "A" && number == 11) {
 			myMul->test();//闭幕式
 		}
 		else if (type == "B" && number == 1) {
@@ -152,6 +156,9 @@ void main()
 		}
 		else if (type == "C" && number == 5) {
 			myTyp->test();//奖牌打造
+		}
+		else if (type == "C" && number == 6) {
+			myDat->test();//信息系统支持
 		}
 		else if (type == "D" && number == 1) {
 			mySev->test();//Service Center
